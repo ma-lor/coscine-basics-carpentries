@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>Lesson Title: All in One View</title>
+<title>Coscine Basics: All in One View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../assets/themetoggle.js"></script><link rel="stylesheet" type="text/css" href="../assets/styles.css">
 <script src="../assets/scripts.js" type="text/javascript"></script><!-- mathjax --><!-- NOTE: https://docs.mathjax.org/en/latest/output/mathml.html#mathml-support --><!-- Changes from V2 to V4: https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html
@@ -103,7 +103,7 @@
       <img class="small-logo" alt="Carpentries Incubator" src="../assets/images/incubator-logo-sm.svg"></a>
     </div>
     <div class="lesson-title-md">
-      Lesson Title
+      Coscine Basics
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
@@ -114,7 +114,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 <li class="nav-item">
           <span class="lesson-title">
-            Lesson Title
+            Coscine Basics
           </span>
         </li>
         <li class="nav-item">
@@ -245,7 +245,79 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="01-introduction.html">1. Einleitung</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="02-login-profile.html">2. Login und Profil</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush4">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading4">
+        <a href="03-projects-subprojects.html">3. Projekte und Unterprojekte</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04-resources-profiles.html">4. Ressourcen und Metadatenprofile</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="05-crud.html">5. Dateiupload, -download und -löschung</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06-searching.html">6. Dateien Suchen</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush8">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading8">
+        <a href="07-access-controls.html">7. Zugriffsrechte verwalten</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -328,12 +400,12 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>All in One View</h1>
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Einleitung</a></p>
 <hr>
-<p>Last updated on 2026-10-06 |
+<p>Last updated on 2026-10-07 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -345,8 +417,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>Was ist Coscine?</li>
 </ul>
 </div>
 </div>
@@ -356,157 +427,158 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Erkläre den Zweck von Coscine</li>
+<li>Beschreibe die Struktur in der Daten in Coscine gespeichert
+werden</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<section><h2 class="section-heading" id="was-ist-coscine">Was ist Coscine?<a class="anchor" aria-label="anchor" href="#was-ist-coscine"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.html" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?</h3>
-<div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within
-challenge blocks?</h3>
-<div class="callout-content">
+<p>Coscine ist eine Forschungsdatenmanagement-Plattform, die es
+ermöglicht, Daten im Sinne der FAIR Prinzipien
+(<strong>F</strong>indable, <strong>A</strong>ccessible,
+<strong>I</strong>nteroperable &amp; <strong>R</strong>eusable)
+kostenlos für bis zu 10 Jahre nach Projektende zu speichern. Coscine
+greift auf den DataStorage.nrw zu - ein sehr sicherer Speicher, der an
+den vier Standorten Aachen, Duisburg-Essen, Köln und Paderborn betrieben
+wird. Seit 2018 wird Coscine an der RWTH Aachen entwickelt.</p>
+<p><strong>Die wichtigsten Funktionen</strong></p>
+<ul>
+<li>Daten speichern: Pro Projekt können bis zu 125 TB Speicherplatz
+beantragt werden. 100 GB pro Projekt können Sie ohne einen Antrag
+nutzen.</li>
+<li>Daten beschreiben: Sie können Ihre Daten mit Metadaten
+(Informationen über die Daten) beschreiben, damit sie nachvollziehbar
+bleiben.</li>
+<li>(Meta-)Daten teilen: Metadaten können öffentlich sichtbar (innerhalb
+von Coscine) eingestellt werden. Die Daten selbst sind nicht frei
+zugänglich, können jedoch für ausgewählte Personen (z.B.
+Projektpartner:innen) zugänglich gemacht werden. Alle anderen können
+eine Anfrage per E-Mail versenden.</li>
+</ul>
+<p><strong>Die Struktur</strong></p>
+<ul>
+<li>(Sub-)Projekte: Es können beliebig viele (Sub-)Projekte erstellt
+werden. Sie helfen dabei, den Überblick zu behalten. Vergleichen können
+Sie das mit der Ordnerstruktur auf Ihrem Computer.</li>
+<li>Ressourcen: Hier legen Sie fest, wie und wo Ihre Daten gespeichert
+werden. Es gibt 5 Ressourcentypen.</li>
+<li>Metadatenprofil: Ein Metadatenprofil ist immer an eine Ressource
+gebunden. Es gibt den Rahmen vor, mit welchen Informationen die Daten
+beschrieben werden, z.B. Erhebungsdatum, Erhebungsmethode.</li>
+</ul>
+<figure><img src=".././fig/Coscine_Struktur.png" alt="Schaubild der Datenstruktur in Coscine." class="figure mx-auto d-block"><!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ --></figure></section></section><section id="aio-02-login-profile"><p>Content from <a href="02-login-profile.html">Login und Profil</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
 
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/02-login-profile.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Welche Möglichkeiten zum Login gibt es?</li>
+</ul>
 </div>
 </div>
 </div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Nutzen Sie die verschiedenen Methoden zum Login</li>
+<li>Verknüpfen Sie alle Zugänge mit dem selben Account</li>
+</ul>
 </div>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+</div>
+<section><h2 class="section-heading" id="login-möglichkeiten">Login-Möglichkeiten<a class="anchor" aria-label="anchor" href="#login-m%C3%B6glichkeiten"></a>
 </h2>
 <hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
+<ul>
+<li>Per Login (All Institutions): Steht Coscine an Ihrer Hochschule zur
+Verfügung, können Sie sich mit Ihren Institutions-Anmeldedaten anmelden.
+Diese verfallen nach Beschäftigungsende. Deshalb sollten Sie Ihr Konto
+mit einer ORCiD verknüpfen, um dauerhaft auf Ihre Projekte zugreifen zu
+können.</li>
+<li>Per ORCiD: Die ORCiD ist eine eindeutige, digitale Identifikation
+für Forschende. Eine ORCiD besteht aus einem 16-stelligen numerischen
+Code. Der Login mit der ORCiD ist jederzeit möglich.</li>
+</ul>
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <span class="callout-header">Callout</span>
 <div class="callout-inner">
 <div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
+<p>Legen Sie sich mit nur wenigen Klicks eine <a href="https://orcid.org/register" class="external-link">ORCiD</a> an.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
+</section><section><h2 class="section-heading" id="profileinstellungen">Profileinstellungen<a class="anchor" aria-label="anchor" href="#profileinstellungen"></a>
 </h2>
 <hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
-<div id="keypoints1" class="callout keypoints">
+<table class="table"><tbody>
+<tr>
+<td align="left">Persönliche Angaben</td>
+<td>Titel, Vorname, Familienname, E-Mail, Organisation, Disziplin (vgl.
+Spalte „Fachkollegium“ der <a href="https://www.dfg.de/resource/blob/172316/5863ef132d178054609f74940f6a27c9/fachsystematik-2016-2019-de-grafik-data.pdf" class="external-link">DFG-Fachsystematik</a>)</td>
+</tr>
+<tr>
+<td align="left">Zugriffstoken erstellen</td>
+<td>Ermöglicht den automatisierten Zugriff auf alle Projekte und Dateien
+über die API. Mehr dazu in der <a href="https://docs.coscine.de/de/token/" class="external-link">Coscine Dokumentation</a>.</td>
+</tr>
+<tr>
+<td align="left">Nutzendenpräferenzen</td>
+<td>Einstellung der bevorzugten Sprache (deutsch oder englisch)</td>
+</tr>
+<tr>
+<td align="left">Verbundene Accounts</td>
+<td>Verknüpfung des Kontos mit anderen Accounts (z.B. ORCiD)</td>
+</tr>
+</tbody></table>
+<div id="challenge1" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Key Points</span>
+<span class="callout-header">Challenge</span>
 <div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution verfügbar
+sind:</strong></p>
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Melden Sie sich bei <a href="https://coscine.rwth-aachen.de/login" class="external-link">Coscine</a> an. Nutzen Sie
+den Login (All Institutions).</li>
+<li>Öffnen Sie Ihr Profil und vervollständigen Sie die fehlenden
+Informationen.</li>
+</ul>
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution
+<u>nicht</u> verfügbar sind:</strong></p>
+<ul>
+<li>Melden Sie sich bei <a href="https://coscine.rwth-aachen.de/login" class="external-link">Coscine</a> mit Ihrer <a href="https://orcid.org/" class="external-link">ORCiD</a> an.</li>
+<li>Öffnen Sie Ihr Profil und vervollständigen Sie die fehlenden
+Informationen.</li>
 </ul>
 </div>
 </div>
@@ -515,7 +587,622 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section>
+</section></section><section id="aio-03-projects-subprojects"><p>Content from <a href="03-projects-subprojects.html">Projekte und Unterprojekte</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/03-projects-subprojects.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Was sind Projekte in Coscine?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Legen Sie ein Projekt in Coscine an</li>
+<li>Beschreiben Sie das Projekt mit den richtigen Metadaten</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="projekte-und-unterprojekte">Projekte und Unterprojekte<a class="anchor" aria-label="anchor" href="#projekte-und-unterprojekte"></a>
+</h2>
+<hr class="half-width">
+<p>Projekte sind sozusagen die Ordner, in denen später sogenannte
+Ressourcen und darin Ihre Daten gespeichert sind. In einem Projekt
+können auch mehrere Subprojekte vorhanden sein. Damit verständlich ist,
+um welches Projekt es sich handelt, müssen Sie beim Erstellen
+verschiedene Informationen angeben:</p>
+<table class="table"><tbody>
+<tr>
+<td align="left">Projektname</td>
+<td align="left">Name des Projektes</td>
+</tr>
+<tr>
+<td align="left">Anzeigename</td>
+<td align="left">Kurztitel des Projektes</td>
+</tr>
+<tr>
+<td align="left">Projektbeschreibung</td>
+<td align="left">Kurze Erläuterung des Projektinhaltes</td>
+</tr>
+<tr>
+<td align="left">Principal Investigators (PI)</td>
+<td align="left">Projektleiter:innen</td>
+</tr>
+<tr>
+<td align="left">Projektstart</td>
+<td align="left">Start des Projektes</td>
+</tr>
+<tr>
+<td align="left">Projektende</td>
+<td align="left">(Voraussichtliches) Projektende</td>
+</tr>
+<tr>
+<td align="left">Disziplin</td>
+<td align="left">Entspricht der <a href="https://www.dfg.de/resource/blob/172316/5863ef132d178054609f74940f6a27c9/fachsystematik-2016-2019-de-grafik-data.pdf" class="external-link">DFG-Fachsystematik</a>
+(Mehrfachauswahl möglich)</td>
+</tr>
+<tr>
+<td align="left">Teilnehmende Organisationen</td>
+<td align="left">Verfügbare Organisationen basieren auf <a href="https://ror.org/" class="external-link">ROR IDs</a>. Falls die Organisation nicht
+gelistet ist, kann sie manuell eingegeben werden.</td>
+</tr>
+<tr>
+<td align="left">Projektschlagwörter</td>
+<td align="left">Zur besseren Einordnung und Suchbarkeit des
+Projektes</td>
+</tr>
+<tr>
+<td align="left">Sichtbarkeit der Metadaten</td>
+<td align="left">Public heißt: alle Nutzenden können die (Meta-)Daten in
+Coscine finden. Kein Zugriff auf die Daten. Anfrage zum Teilen der Daten
+möglich.</td>
+</tr>
+<tr>
+<td align="left">GrantID</td>
+<td align="left">Fördernummer des Projektes (falls vorhanden)</td>
+</tr>
+</tbody></table>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Erstellen Sie Ihr eigenes Test-Projekt in Coscine.</p>
+</div>
+</div>
+</div>
+<div id="accordionHint1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
+  <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
+</button>
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div class="accordion-body">
+<p>Verwenden Sie bei Bedarf folgende Metadaten:</p>
+<p>Projektname: Verkehrsanalyse und Optimierung im Aachener
+Verkehrsverbund</p>
+<p>Projektbeschreibung: Das Forschungsprojekt “Verkehrsanalyse und
+Optimierung im Aachener Verkehrsverbund” zielt darauf ab, durch die
+Analyse von umfangreichen Daten des Verkehrssystems in Aachen
+Lösungsansätze für eine effizientere und benutzerfreundlichere Nutzung
+des öffentlichen Nahverkehrs zu entwickeln. Das Projekt umfasst die
+Sammlung und Integration verschiedener Datensätze, darunter
+Informationen zu Haltestellen, Masten sowie Tarifbedingungen, die in
+einer zentralen Plattform gespeichert und analysiert werden. Ziel ist
+es, die Effizienz des öffentlichen Nahverkehrs im Aachener Raum zu
+steigern, die Umweltbelastung zu reduzieren und gleichzeitig die
+Lebensqualität der Bewohner:innen zu verbessern.</p>
+<p>Projektleiter:in: [Sie]</p>
+<p>Projektstart: [Heute]</p>
+<p>Projektende: [Heute + 2 Jahre]</p>
+<p>Teilnehmende Organisationen: [Ihre Hochschule]</p>
+<p>Förderkennzeichen: XYZ-ABC123</p>
+</div>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-04-resources-profiles"><p>Content from <a href="04-resources-profiles.html">Ressourcen und Metadatenprofile</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/04-resources-profiles.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Wie werden Ressourcen erstellt?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Legen Sie eine Resource an</li>
+<li>Wählen und befüllen Sie ein Metadatenschema</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="schritt-1-ressourcentyp-festlegen">Schritt 1: Ressourcentyp festlegen<a class="anchor" aria-label="anchor" href="#schritt-1-ressourcentyp-festlegen"></a>
+</h2>
+<hr class="half-width">
+<p>Mit dem Ressourcentyp legen Sie fest, wo Ihre Daten gespeichert sein
+sollen. So gibt es z.B. die Möglichkeit, Daten über Coscine auf dem
+DataStorage.nrw zu speichern oder nur einen Datensatz zu verlinken, der
+bereits an einem anderen Ort gespeichert ist (z.B. GitLab).</p>
+<table class="table"><tbody>
+<tr>
+<td align="left">Web</td>
+<td>Web-Ressource des Datastorage.nrw. Bis zu 100 GB Speicherplatz ist
+kein Antrag erforderlich. Auf Antrag auch mehr Speicherplatz möglich.
+Zugriff nur über Webinterface oder API.</td>
+</tr>
+<tr>
+<td align="left">S3</td>
+<td>S3-Ressource des Datastorage.nrw. Für die S3-Ressource muss ein
+Antrag gestellt werden. Es sind bis zu 125 TB Speicherplatz pro
+Speicherplatz-Antrag möglich. Zugriff erfolgt über Webinterface, API
+oder S3-Client.</td>
+</tr>
+<tr>
+<td align="left">WORM</td>
+<td>WORM-Ressource des Datastorage.nrw für besonders vor Manipulation zu
+schützende Daten. Daten können nach dem Speichern nicht mehr gelöscht
+oder verändert werden (Write Once Read Many). Für die WORM-Ressource
+muss ein Antrag gestellt werden. Es sind bis zu 125 TB Speicherplatz
+möglich.</td>
+</tr>
+<tr>
+<td align="left">GitLab</td>
+<td>Sie können ein GitLab-Projekt mit Coscine verknüpfen und so alle
+Dateien, die im GitLab Projekt liegen, in Coscine mit Metadaten
+beschreiben. Die Daten verbleiben weiterhin in GitLab, die Metadaten
+werden in Coscine gespeichert.</td>
+</tr>
+<tr>
+<td align="left">Linked Data</td>
+<td>Sie können Dateien, die an einem anderen Speicherort liegen, mit
+einem persistenten Link in Coscine verknüpfen und dort die Dateien mit
+Metadaten beschreiben. Auch hier bleiben die Daten am ursprünglichen
+Speicherort.</td>
+</tr>
+</tbody></table></section><section><h2 class="section-heading" id="schritt-2-metadatenprofil-festlegen">Schritt 2: Metadatenprofil festlegen<a class="anchor" aria-label="anchor" href="#schritt-2-metadatenprofil-festlegen"></a>
+</h2>
+<hr class="half-width">
+<p>Im zweiten Schritt wählen Sie ein Metadatenprofil. Dies bestimmt die
+Eingabefelder für die Metadaten (z.B. Ersteller:in, Erhebungsmethode,
+Datentyp, Lizenz…). Einige Profile und Standards sind in Coscine bereits
+vorgegeben (z.B. BASE oder EngMeta). Wenn Sie kein passendes Profil für
+Ihre Daten finden, dann können Sie auch ein eigenes erstellen und
+beantragen.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Das ausgewählte Metadatenprofil kann im Nachgang nicht mehr geändert
+werden.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="schritt-3-ressourcenmetadaten-ausfüllen">Schritt 3: Ressourcenmetadaten ausfüllen<a class="anchor" aria-label="anchor" href="#schritt-3-ressourcenmetadaten-ausf%C3%BCllen"></a>
+</h2>
+<hr class="half-width">
+<p>Im letzten Schritt müssen Sie nun noch ein paar Informationen über
+die Ressource eingeben:</p>
+<table class="table"><tbody>
+<tr>
+<td align="left">Ressourcenname</td>
+<td align="left">Eindeutiger Name der Ressource</td>
+</tr>
+<tr>
+<td align="left">Anzeigename</td>
+<td align="left">Kurzer Anzeigename der Ressource</td>
+</tr>
+<tr>
+<td align="left">Ressourcenbeschreibung</td>
+<td align="left">Beschreibung von Inhalt und Zweck der Ressource</td>
+</tr>
+<tr>
+<td align="left">Disziplin</td>
+<td align="left">Entspricht der <a href="https://www.dfg.de/resource/blob/172316/5863ef132d178054609f74940f6a27c9/fachsystematik-2016-2019-de-grafik-data.pdf" class="external-link">DFG-Fachsystematik</a>
+(Mehrfachauswahl möglich)</td>
+</tr>
+<tr>
+<td align="left">Projektschlagwörter</td>
+<td align="left">Zur besseren Einordnung und Suchbarkeit der
+Ressource</td>
+</tr>
+<tr>
+<td align="left">Sichtbarkeit</td>
+<td align="left">Bei der Einstellung „public“ können alle Nutzenden von
+Coscine die (Meta-)Daten finden. Sie haben keinen Zugriff auf die Daten
+selbst, können Sie jedoch bei Interesse kontaktieren.</td>
+</tr>
+<tr>
+<td align="left">Lizenz</td>
+<td align="left">Für alle Dateien der Ressource kann eine Lizenz
+ausgewählt werden. Für Forschungsdaten werden die Creative Commons
+Lizenzen (CC-Lizenzen) empfohlen. Weitere Infos finden Sie auf <a href="https://forschungsdaten.info/themen/rechte-und-pflichten/forschungsdaten-veroeffentlichen/creative-commons-lizenzen/" class="external-link">forschungsdaten.info</a>.</td>
+</tr>
+<tr>
+<td align="left">Interne Regeln zur Nachnutzung</td>
+<td align="left">Besondere Regeln und Informationen zur Nachnutzung der
+Dateien innerhalb der Organisation (z.B. Wie soll mit den Daten
+umgegangen werden, wenn der/die Projektleiter:in nicht mehr da
+ist?)</td>
+</tr>
+</tbody></table>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution verfügbar
+sind:</strong></p>
+<ul>
+<li>Erstellen Sie in Ihrem Projekt eine Ressource vom Typ „Web“.</li>
+</ul>
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution
+<u>nicht</u> verfügbar sind:</strong></p>
+<ul>
+<li>Erstellen Sie in Ihrem Projekt eine Ressource vom Typ „Linked
+Data“.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="accordionHint1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
+  <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
+</button>
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div class="accordion-body">
+<p>Verwenden Sie das Metadatenprofil „Base Profile“.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionHint2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint2" aria-expanded="false" aria-controls="collapseHint2">
+  <h4 class="accordion-header" id="headingHint2"> Give me a hint </h4>
+</button>
+<div id="collapseHint2" class="accordion-collapse collapse" data-bs-parent="#accordionHint2" aria-labelledby="headingHint2">
+<div class="accordion-body">
+<p>Verwenden Sie bei Bedarf diese Metadaten: Ressourcenname:
+Basisdaten</p>
+<p>Ressourcenbeschreibung: Der Datensatz enthält alle Haltestellen im
+AVV-Verbundgebiet auf Ebene der Masten, soweit verfügbar mit GlobalID.
+Es sind nur Haltestellen in der Städteregion Aachen, dem Kreis Düren und
+dem Kreis Heinsberg enthalten. Die Koordinaten sind im Format
+Gauß-Krüger 2 (EPSG:31466) gepflegt.</p>
+<p>Sichtbarkeit der Metadaten: Project Members</p>
+<p>Lizenz: CC BY 4.0 (Attribution)</p>
+<p>Interne Regeln zur Nachnutzung: Keine</p>
+</div>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-05-crud"><p>Content from <a href="05-crud.html">Dateiupload, -download und -löschung</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/05-crud.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 2 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Wie kann ich Dateien in Coscine verwalten?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Führen Siedie folgenden Dateioperationen durch:
+<ul>
+<li>Hochladen</li>
+<li>Herunterladen</li>
+<li>Löscehn</li>
+<li>Filtern</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="upload">Upload<a class="anchor" aria-label="anchor" href="#upload"></a>
+</h2>
+<hr class="half-width">
+<p>Sofern Sie eine “Web” Ressource erstellt haben, können Sie nun Daten
+über Coscine hochladen. Sie können entweder einzelne Datein hochladen
+oder auch mehrere Dateien auf einmal. Ziehen Sie die Datein einfach in
+die Weboberfläche von Coscine oder laden Sie die Dateien über die
+Buttons “Datei auswählen” und “Hochladen” hoch. Sobald Sie Ihre Daten
+ausgewählt haben, müssen Sie diese rechts mit Metadaten beschreiben.
+Danach können Sie die Daten final hochladen.</p>
+<p>Wenn Sie eine “Linked Data” Ressource erstellt haben, können Sie
+keine Daten direkt in Coscine hochladen. Stattdessen verlinken Sie
+Daten, die in einer anderen Speicherumgebung gespeichert sind.
+Anschließend beschreiben Sie diese mit Metadaten. Nur die Metadaten sind
+nun in Coscine hinterlegt. Neben diesen beiden Varianten besteht auch
+die Möglichkeit, Daten automatisiert über die API hochzuladen oder über
+den S3-Client, wenn Sie eine S3-Ressource gewählt haben. Weitere
+Informationen zur <a href="https://docs.coscine.de/de/api/api/" class="external-link">API</a>
+und zu <a href="https://docs.coscine.de/de/resources/s3-clients/" class="external-link">S3-Clients</a>
+finden Sie in der Coscine-Dokumentation.</p>
+</section><section><h2 class="section-heading" id="download-und-löschen">Download und Löschen<a class="anchor" aria-label="anchor" href="#download-und-l%C3%B6schen"></a>
+</h2>
+<hr class="half-width">
+<p>Beim Download gilt das Gleiche wie beim Upload: Da die Daten bei der
+“Linked Data” Ressource extern gespeichert sind, können die Daten nicht
+in Coscine heruntergeladen werden. Inhalte von “Web”, “S3”, und
+“WORM”-Ressourcen können Sie hingegen herunterladen, indem Sie die
+gewünschten Daten über die Checkbox markieren, anschließend “Alle
+Dateien” auswählen und anschließend rechts auf “Herunterladen”
+klicken.</p>
+<p>Um Daten einer “Web” Ressource zu löschen, klicken Sie nach der
+Auswahl auf den Pfeil neben “Herunterladen”, anschließend auf “Alle
+Dateien” und dann auf “Löschen”. Bei Inhalten einer “Linked Data”
+Ressource gehen sie identisch vor. Allerdings entfernen Sie nicht den
+Datensatz (da sich dieser an einem externen Speicherort befindet),
+sondern nur die Verlinkung und die zugehörigen Metadaten.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Gelöschte Inhalte können nicht wieder hergestellt werden.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="filtern">Filtern<a class="anchor" aria-label="anchor" href="#filtern"></a>
+</h2>
+<hr class="half-width">
+<p>Über das Filtersymbol können Sie festlegen, welche Metadatenfelder in
+der Auflistung angezeigt werden sollen. Über die Suchleiste oberhalb der
+Liste können Sie nach Schlagwörtern suchen. Dies ist nützlich, wenn Sie
+beispielsweise alle Daten sehen möchten, die z.B. mit einer bestimmten
+Methode erhoben wurden. Dies setzt natürlich voraus, dass die Metadaten
+konsistent dokumentiert wurden.</p>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution verfügbar
+sind:</strong></p>
+<ul>
+<li>Laden Sie einen Datensatz in Ihrer “Web” Ressource hoch und füllen
+Sie die Metadaten aus.</li>
+<li>Machen Sie sich mit der Filterfunktion vertraut.</li>
+</ul>
+<p><strong>Falls Speicherplatzressourcen an Ihrer Institution
+<u>nicht</u> verfügbar sind:</strong></p>
+<ul>
+<li>Verlinken Sie einen Datensatz (der z.B. in <a href="https://hochschulcloud.nrw/" class="external-link">Sciebo</a> gespeichert ist) in Ihrer
+“Linked Data” Ressource und füllen Sie die Metadaten aus.</li>
+<li>Machen Sie sich mit der Filterfunktion vertraut.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-06-searching"><p>Content from <a href="06-searching.html">Dateien Suchen</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/06-searching.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 4 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Wie kann nach Datensätzen gesucht werden?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Suchen Sie Daten anhand von Schlagwörtern und Metadaten</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Über die Suchfunktion können Dateien, Ressourcen und Projekte
+mithilfe der Metadaten gefunden werden. Dies setzt voraus, dass die
+Metadaten “public” sind. Wenn Metadaten “privat” sind, müssen Sie
+Mitglied des Projekts sein, um Daten aus dem Projekt finden zu
+können.</p>
+<p>Der Zugriff auf die Ergebnisse ist nur möglich, wenn Sie Mitglied des
+Projektes sind. Alle anderen haben keinen Zugriff auf die Daten selbst
+und sehen nur die Metadaten.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Die Daten können erst 24 Stunden nach Upload in Coscine gefunden
+werden, da sich das System in diesem Rhythmus aktualisiert.</p>
+</div>
+</div>
+</div>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Testen Sie die Suchfunktion mit Schlagwörtern Ihrer Wahl.</p>
+</div>
+</div>
+</div></section><section id="aio-07-access-controls"><p>Content from <a href="07-access-controls.html">Zugriffsrechte verwalten</a></p>
+<hr>
+<p>Last updated on 2026-10-07 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/07-access-controls.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Wie können einen Projekte andere Personen hinzugefügt werden?</li>
+<li>Wie funktioniert das Rechtesystem in Coscine?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Fügen Sie ihrem Projekt andere Personen mit versschieden Rollen
+hinzu</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Es gibt zwei Möglichkeiten Personen zu einem Projekt
+hinzuzufügen:</p>
+<ol style="list-style-type: decimal">
+<li>Navigieren Sie in der Projektübersicht zur “Mitgliederverwaltung”.
+Per E-Mail-Adresse können Sie Personen hinzufügen. Mitglieder der
+Institution sind bereits im System erfasst und können einfach per Namen
+gesucht werden. Auch externe Personen können eingeladen werden. Diese
+benötigen für den Login eine ORCiD. Anschließend können sie über die im
+Profil hinterlegte E-Mail-Adresse eingeladen werden.</li>
+<li>Übertragen Sie Mitgliederlisten aus anderen Projekten. Klicken Sie
+hierfür in der Mitgliederverwaltung auf “Importieren”. Wählen Sie das
+entsprechende Projekt aus, dessen Mitglieder Sie übertragen möchten.
+Anschließend können Sie die Liste bearbeiten und Personen
+entfernen.</li>
+</ol>
+<p>Eingeladene Personen können verschiedene Rollen im Projekt
+besitzen:</p>
+<ul>
+<li>
+<strong>Owner</strong> haben administrative Rechte für das Projekt
+und besitzen Lese- und Schreibrechte für die Daten, d.h. Sie können die
+Daten sowohl ansehen als auch bearbeiten.</li>
+<li>
+<strong>Member</strong> haben keine administrativen Rechte. Sie
+haben jedoch Lese- und Schreibrechte.</li>
+<li>
+<strong>Guests</strong> haben nur das Recht, Daten anzusehen. Sie
+besitzen weder administrative Rechte noch Schreibrechte.</li>
+</ul>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Laden Sie eine Person Ihrer Wahl (nach Absprache) zu einem Projekt
+ein. Wenn Sie die Möglichkeit haben, selbst zu einem Projekt eingeladen
+zu werden, lassen Sie sich einladen.</p>
+</div>
+</div>
+</div></section>
 </div>
     </main>
 </div>
@@ -528,14 +1215,14 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/README.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/README.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
+        | <a href="https://github.com/ma-lor/coscine-basics-carpentries/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/ma-lor/coscine-basics-carpentries/" class="external-link">Source</a></p>
         <p>
         <a href="../citation.html">Cite</a>
-        | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="mailto:lorber@fh-aachen.de">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 		</div>
 		<div class="col-md-6">
 
@@ -555,18 +1242,18 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "LearningResource",
-  "@id": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
+  "@id": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "software, data, lesson, The Carpentries",
+  "keywords": "Coscine, data, lesson, The Carpentries",
   "name": "All in One View",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/instructor/aio.html",
-  "dateCreated": "2026-10-06",
-  "dateModified": "2026-10-06",
-  "datePublished": "2026-10-06"
+  "url": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
+  "identifier": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
+  "dateCreated": "224-11-18",
+  "dateModified": "2026-10-07",
+  "datePublished": "2026-10-07"
 }
 
   </script><script>
