@@ -58,34 +58,26 @@ Interne Regeln zur Nachnutzung         Besondere Regeln und Informationen zur Na
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
+Die bisher angelegten Projekte und Unterprojekte bieten nur die Struktur. Legen Sie nun die Ressourcen an, in die Ihr Beobachtungsteam die erhobenen Daten einpflegen kann.
+
 **Falls Speicherplatzressourcen an Ihrer Institution verfügbar sind:** 
 
-- Erstellen Sie in Ihrem Projekt eine Ressource vom Typ „Web“.
+- Wählen Sie für ihre Ressourcen den Typ „Web“.
 
 
 **Falls Speicherplatzressourcen an Ihrer Institution <u>nicht</u> verfügbar sind:**
 
-- Erstellen Sie in Ihrem Projekt eine Ressource vom Typ „Linked Data“. 
-
+- Wählen Sie für ihre Ressourcen den Typ „Linked Data“. 
 
 ::: hint
 
-Verwenden Sie das Metadatenprofil „Base Profile“.
+Wenn Sie auf die schnelle kein besseres Profil finden können Sie für alle Ressourcen das "Basisprofil" nutzen
 
 :::
 
 ::: hint
 
-Verwenden Sie bei Bedarf diese Metadaten:
-Ressourcenname: Basisdaten
-
-Ressourcenbeschreibung: Der Datensatz enthält alle Haltestellen im AVV-Verbundgebiet auf Ebene der Masten, soweit verfügbar mit GlobalID. Es sind nur Haltestellen in der Städteregion Aachen, dem Kreis Düren und dem Kreis Heinsberg enthalten. Die Koordinaten sind im Format Gauß-Krüger 2 (EPSG:31466) gepflegt.
-
-Sichtbarkeit der Metadaten: Project Members
-
-Lizenz: CC BY 4.0 (Attribution)
-
-Interne Regeln zur Nachnutzung: Keine
+Die richtige Anzahl an Ressourcen für ein Projekt zu finden kann eine Kunst für sich sein. Da jeden Ressource nur genau ein Profil haben kann, macht es unter Umständen Sinn für jeden Datentyp (Audio, Video, Text, etc.) eine eigene Resource mit einem entsprechend detaillierten Profil anzulegen. Für dieses Testprojekt sollte pro Unterprojekt eine Ressource für alle Rohdaten ausreichen 
 
 :::
 

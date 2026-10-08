@@ -12,7 +12,7 @@ exercises: 0 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Führen Sie die folgenden Dateioperationen durch:
+- Führen Sie die folgenden Dateioperationen mit der Weboberfläche durch:
   - Hochladen
   - Herunterladen
   - Löschen
@@ -38,7 +38,7 @@ Um Daten einer "Web" Ressource zu löschen, klicken Sie nach der Auswahl auf den
 
 ::: callout
 
-Gelöschte Inhalte können nicht wieder hergestellt werden.
+Gelöschte Inhalte können nicht selbständig wieder hergestellt werden.
 
 :::
 
@@ -49,15 +49,22 @@ Gelöschte Inhalte können nicht wieder hergestellt werden.
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
-**Falls Speicherplatzressourcen an Ihrer Institution verfügbar sind:** 
+Ihr Feldteam hat den ersten Tag an Beobachtungen abgeschlossen und Ihnen die Ergebnisse geschickt.
+Erstellen Sie (leere) Dateien mit den folgenden Namen und laden Sie sie in die richtige Ressourcen hoch. (Falls Sie eine Linked Data Ressource erstellt haben: erstellen Sie stattdessen Verweise auf die Dateinamen.) Denken Sie sich dabei die Namen der Ersteller aus.
 
-- Laden Sie einen Datensatz in Ihrer "Web" Ressource hoch und füllen Sie die Metadaten aus.
-- Machen Sie sich mit der Filterfunktion vertraut.
-
-**Falls Speicherplatzressourcen an Ihrer Institution <u>nicht</u> verfügbar sind:**
-
-- Verlinken Sie einen Datensatz (der z.B. in [Sciebo](https://hochschulcloud.nrw/) gespeichert ist) in Ihrer "Linked Data" Ressource und füllen Sie die Metadaten aus.
-- Machen Sie sich mit der Filterfunktion vertraut.
+```
+# Beobachtungen
+- obs_2025-01-15_brunnen.csv
+- obs_2025-01-15_rathausdach.csv
+- obs_2025-01-15_baeckerei.csv
+# Audio
+- gurr_debatte_2025-01-15_0930_brunnen.mp3
+- gurr_debatte_2025-01-15_1415_rathausdach.mp3
+# Video
+- zeitraffer_brunnen_2025-01-15.mp4
+# Fotos
+- kruemel_karte_baeckerei_001.jpg
+```
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
