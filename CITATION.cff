@@ -16,6 +16,9 @@ authors:
   - given-names: Katrin
     family-names: Birmans
     orcid: 'https://orcid.org/0009-0005-7369-5784'
+  - orcid: 'https://orcid.org/0009-0001-0661-5300'
+    given-names: Marvin
+    family-names: Lorber
   - orcid: 'https://orcid.org/0009-0004-3355-8753'
     family-names: Tambornino
     given-names: Philipp
@@ -28,3 +31,4 @@ abstract: >-
   researchers through the first steps of using the Coscine
   platform
 license: CC-BY-4.0
+
