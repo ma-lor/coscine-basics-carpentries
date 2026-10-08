@@ -90,3 +90,14 @@ Interne Regeln zur Nachnutzung: Keine
 :::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Es gibt 5 Ressourcentypen, die wichtigsten sind:
+    - Web: "Standard" für Daten in Coscine
+    - S3: Kompatibel mit dem S3-Standard, nur auf Antrag erhältlich
+    - Linked Data: Externe Daten für die nur Metadaten in Coscine gespeichert werden
+- Jede Ressource ist fest mit einem Metadatenprofil verknüpft
+- Metadatenprofile können aus einer Liste ausgewählt, oder (mit etwas Vorlauf) neu vorgeschlagen werden
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::

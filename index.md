@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-![Coscine](episodes/fig/Coscine.png){alt="The Coscine Logo."}
+![](episodes/fig/Coscine.png){alt="The Coscine Logo."}
 
 ## Inhalte  
 
@@ -14,6 +14,6 @@ Die Kapitel greifen Inhalte der [Coscine Dokumentation](https://docs.coscine.de/
 
 ::: callout
 
-Coscine wird am IT Center der RWTH Aachen laufend weiterentwickelt und verbessert, weshalb einige Inhalte dieses Kurses vom aktuellen Entwicklungsstand abweichen können. Die Inhalte beziehen sich auf den Entwicklungsstand von Oktober 2024.
+Coscine wird am IT Center der RWTH Aachen laufend weiterentwickelt und verbessert, weshalb einige Inhalte dieses Kurses vom aktuellen Entwicklungsstand abweichen können. Die Inhalte beziehen sich auf den Entwicklungsstand von Oktober 2026.
 
 :::
