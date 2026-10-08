@@ -21,7 +21,7 @@ carpentry: 'incubator'
 title: 'Coscine Basics'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 0224-11-18
+created: 2024-11-18
 
 # Comma-separated list of keywords for the lesson
 keywords: 'Coscine, data, lesson, The Carpentries'
