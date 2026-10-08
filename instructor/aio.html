@@ -402,7 +402,7 @@
         
 <section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Einleitung</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
@@ -428,7 +428,7 @@
 <h3 class="card-title">Objectives</h3>
 <ul>
 <li>Erkläre den Zweck von Coscine</li>
-<li>Beschreibe die Struktur in der Daten in Coscine gespeichert
+<li>Beschreibe die Struktur, in der Daten in Coscine gespeichert
 werden</li>
 </ul>
 </div>
@@ -452,8 +452,8 @@ wird. Seit 2018 wird Coscine an der RWTH Aachen entwickelt.</p>
 <li>Daten speichern: Pro Projekt können bis zu 125 TB Speicherplatz
 beantragt werden. 100 GB pro Projekt können Sie ohne einen Antrag
 nutzen.</li>
-<li>Daten beschreiben: Sie können Ihre Daten mit Metadaten
-(Informationen über die Daten) beschreiben, damit sie nachvollziehbar
+<li>Daten beschreiben: Alle Daten müssen mit Metadaten (Informationen
+über die Daten) beschrieben werden, damit sie nachvollziehbar
 bleiben.</li>
 <li>(Meta-)Daten teilen: Metadaten können öffentlich sichtbar (innerhalb
 von Coscine) eingestellt werden. Die Daten selbst sind nicht frei
@@ -467,17 +467,36 @@ eine Anfrage per E-Mail versenden.</li>
 werden. Sie helfen dabei, den Überblick zu behalten. Vergleichen können
 Sie das mit der Ordnerstruktur auf Ihrem Computer.</li>
 <li>Ressourcen: Hier legen Sie fest, wie und wo Ihre Daten gespeichert
-werden. Es gibt 5 Ressourcentypen.</li>
+werden. Es gibt 5 Ressourcentypen die im Kapitel “Ressourcen und
+Metadatenprofile” genauer beschrieben werden.</li>
 <li>Metadatenprofil: Ein Metadatenprofil ist immer an eine Ressource
 gebunden. Es gibt den Rahmen vor, mit welchen Informationen die Daten
 beschrieben werden, z.B. Erhebungsdatum, Erhebungsmethode.</li>
 </ul>
-<figure><img src=".././fig/Coscine_Struktur.png" alt="Schaubild der Datenstruktur in Coscine." class="figure mx-auto d-block"><!--
+<p>Jede Ressource muss immer genau ein Metadatenprofil haben. In der
+folgenden Abbildung wurde das Profil zur besseren Übersicht nur für eine
+Resource dargestellt. <img src=".././fig/Coscine_Struktur.png" alt="Schaubild der Datenstruktur in Coscine." class="figure"></p>
+<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
+  <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
+</button>
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div class="accordion-body">
+<p>Ein Metadatenprofil legt fest welche Informationen unter welchem
+Namen zu einer Datei gespeichert werden. Hier Beispielhaft das “Base
+Profile”: <img src=".././fig/01-metadata-profile.png" alt="Screenshot des Base Profils. Gibt die Namen 'Title', 'Creator', 'Creation Date', 'Subject Area' und 'Type' vor" class="figure"></p>
+</div>
+</div>
+</div>
+</div>
+<!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
- --></figure></section></section><section id="aio-02-login-profile"><p>Content from <a href="02-login-profile.html">Login und Profil</a></p>
+ -->
+</section></section><section id="aio-02-login-profile"><p>Content from <a href="02-login-profile.html">Login und Profil</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/02-login-profile.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
@@ -523,20 +542,39 @@ können.</li>
 für Forschende. Eine ORCiD besteht aus einem 16-stelligen numerischen
 Code. Der Login mit der ORCiD ist jederzeit möglich.</li>
 </ul>
-<div id="callout1" class="callout">
+<div id="prereq1" class="callout prereq">
 <div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
+<i class="callout-icon" data-feather="check"></i>
 </div>
-<span class="callout-header">Callout</span>
+<span class="callout-header">Prerequisite</span>
 <div class="callout-inner">
 <div class="callout-content">
-<p>Legen Sie sich mit nur wenigen Klicks eine <a href="https://orcid.org/register" class="external-link">ORCiD</a> an.</p>
+<p>Falls Sie noch nicht registriert sind, legen Sie sich mit nur wenigen
+Klicks eine <a href="https://orcid.org/register" class="external-link">ORCiD</a> an.</p>
+</div>
+</div>
+</div>
+<p>Nach dem Login landen Sie auf ihrer persönlichen Startseite:</p>
+<figure><img src=".././fig/02-homepage.png" alt="Screenshot der Startseite nach dem Login" class="figure mx-auto d-block"><div class="figcaption">Homepage</div>
+</figure><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
+<p>Nach dem Login ist ein guter Zeitpunkt auf die Teilnehmer / Fragen zu
+warten und um auf die Mail-Verification für neue Accounts
+hinzuweisen.</p>
+</div>
 </div>
 </div>
 </div>
 </section><section><h2 class="section-heading" id="profileinstellungen">Profileinstellungen<a class="anchor" aria-label="anchor" href="#profileinstellungen"></a>
 </h2>
 <hr class="half-width">
+<p>Die Profileinstellungen finden Sie unter [Ihr Name] &gt;
+“Nutzendenprofil” am oberen rechten Rand.</p>
 <table class="table"><tbody>
 <tr>
 <td align="left">Persönliche Angaben</td>
@@ -550,13 +588,28 @@ Spalte „Fachkollegium“ der <a href="https://www.dfg.de/resource/blob/172316/
 </tr>
 <tr>
 <td align="left">Nutzendenpräferenzen</td>
-<td>Einstellung der bevorzugten Sprache (deutsch oder englisch)</td>
+<td>Einstellung der bevorzugten Sprache (deutsch oder englisch) und
+Benachrichtigungen</td>
 </tr>
 <tr>
 <td align="left">Verbundene Accounts</td>
 <td>Verknüpfung des Kontos mit anderen Accounts (z.B. ORCiD)</td>
 </tr>
 </tbody></table>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Der erste Login mit einer Login-Möglichkeit erzeugt einen neuen
+Account! Zur besseren Übersicht und damit Sie weiter Zugriff auf ihre
+Projekte haben, auch wenn Sie eine Institution verlassen, sollten Sie
+alle ihre Accounts miteinander verknüpfen.</p>
+</div>
+</div>
+</div>
 <div id="challenge1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -589,7 +642,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-03-projects-subprojects"><p>Content from <a href="03-projects-subprojects.html">Projekte und Unterprojekte</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/03-projects-subprojects.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
@@ -667,7 +720,7 @@ gelistet ist, kann sie manuell eingegeben werden.</td>
 </tr>
 <tr>
 <td align="left">Projektschlagwörter</td>
-<td align="left">Zur besseren Einordnung und Suchbarkeit des
+<td align="left">Zur besseren Einordnung und Findbarkeit des
 Projektes</td>
 </tr>
 <tr>
@@ -698,7 +751,7 @@ möglich.</td>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>Verwenden Sie bei Bedarf folgende Metadaten:</p>
 <p>Projektname: Verkehrsanalyse und Optimierung im Aachener
@@ -729,7 +782,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-04-resources-profiles"><p>Content from <a href="04-resources-profiles.html">Ressourcen und Metadatenprofile</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/04-resources-profiles.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 20 minutes</p>
@@ -774,7 +827,8 @@ bereits an einem anderen Ort gespeichert ist (z.B. GitLab).</p>
 <td align="left">Web</td>
 <td>Web-Ressource des Datastorage.nrw. Bis zu 100 GB Speicherplatz ist
 kein Antrag erforderlich. Auf Antrag auch mehr Speicherplatz möglich.
-Zugriff nur über Webinterface oder API.</td>
+Zugriff nur über Webinterface oder API. Dies ist der “Standard”
+Ressourcentyp wenn Ihre Daten in Coscine gespeichert werden.</td>
 </tr>
 <tr>
 <td align="left">S3</td>
@@ -789,21 +843,29 @@ oder S3-Client.</td>
 schützende Daten. Daten können nach dem Speichern nicht mehr gelöscht
 oder verändert werden (Write Once Read Many). Für die WORM-Ressource
 muss ein Antrag gestellt werden. Es sind bis zu 125 TB Speicherplatz
-möglich.</td>
+möglich. Dieser Typ ist nur in Sonderfällen relevant. Beraten Sie sich
+mit ihrem lokalen Coscine Support wenn Sie überlegen eine WORM Ressource
+zu beantragen.</td>
 </tr>
 <tr>
 <td align="left">GitLab</td>
 <td>Sie können ein GitLab-Projekt mit Coscine verknüpfen und so alle
 Dateien, die im GitLab Projekt liegen, in Coscine mit Metadaten
 beschreiben. Die Daten verbleiben weiterhin in GitLab, die Metadaten
-werden in Coscine gespeichert.</td>
+werden in Coscine gespeichert. Da bei dieser Resource die Daten selbst
+nicht in Coscine gespeichert werden kann sie auch genutzt werden wenn
+Sie nicht Teil einer Institution sind, die Speicher in Coscine zur
+Verfügung stellt.</td>
 </tr>
 <tr>
 <td align="left">Linked Data</td>
 <td>Sie können Dateien, die an einem anderen Speicherort liegen, mit
 einem persistenten Link in Coscine verknüpfen und dort die Dateien mit
 Metadaten beschreiben. Auch hier bleiben die Daten am ursprünglichen
-Speicherort.</td>
+Speicherort. Da bei dieser Resource die Daten selbst nicht in Coscine
+gespeichert werden kann sie auch genutzt werden wenn Sie nicht Teil
+einer Institution sind, die Speicher in Coscine zur Verfügung
+stellt.</td>
 </tr>
 </tbody></table></section><section><h2 class="section-heading" id="schritt-2-metadatenprofil-festlegen">Schritt 2: Metadatenprofil festlegen<a class="anchor" aria-label="anchor" href="#schritt-2-metadatenprofil-festlegen"></a>
 </h2>
@@ -822,7 +884,9 @@ beantragen.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <p>Das ausgewählte Metadatenprofil kann im Nachgang nicht mehr geändert
-werden.</p>
+werden. Wenn Sie das Profil später wechseln wollen müssen Sie die
+Resource löschen und von vorne beginnen. Es lohnt sich also, sorgfältig
+zu planen!</p>
 </div>
 </div>
 </div>
@@ -901,7 +965,7 @@ Data“.</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <p>Verwenden Sie das Metadatenprofil „Base Profile“.</p>
 </div>
@@ -913,7 +977,7 @@ Data“.</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint2" aria-expanded="false" aria-controls="collapseHint2">
   <h4 class="accordion-header" id="headingHint2"> Give me a hint </h4>
 </button>
-<div id="collapseHint2" class="accordion-collapse collapse" data-bs-parent="#accordionHint2" aria-labelledby="headingHint2">
+<div id="collapseHint2" class="accordion-collapse collapse" aria-labelledby="headingHint2" data-bs-parent="#accordionHint2">
 <div class="accordion-body">
 <p>Verwenden Sie bei Bedarf diese Metadaten: Ressourcenname:
 Basisdaten</p>
@@ -935,7 +999,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-05-crud"><p>Content from <a href="05-crud.html">Dateiupload, -download und -löschung</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/05-crud.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 2 minutes</p>
@@ -960,11 +1024,11 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Führen Siedie folgenden Dateioperationen durch:
+<li>Führen Sie die folgenden Dateioperationen durch:
 <ul>
 <li>Hochladen</li>
 <li>Herunterladen</li>
-<li>Löscehn</li>
+<li>Löschen</li>
 <li>Filtern</li>
 </ul>
 </li>
@@ -978,13 +1042,15 @@ any links that you are not going to use.
 </h2>
 <hr class="half-width">
 <p>Sofern Sie eine “Web” Ressource erstellt haben, können Sie nun Daten
-über Coscine hochladen. Sie können entweder einzelne Datein hochladen
-oder auch mehrere Dateien auf einmal. Ziehen Sie die Datein einfach in
+über Coscine hochladen. Sie können entweder einzelne Dateien hochladen
+oder auch mehrere Dateien auf einmal. Ziehen Sie die Dateien einfach in
 die Weboberfläche von Coscine oder laden Sie die Dateien über die
 Buttons “Datei auswählen” und “Hochladen” hoch. Sobald Sie Ihre Daten
 ausgewählt haben, müssen Sie diese rechts mit Metadaten beschreiben.
 Danach können Sie die Daten final hochladen.</p>
-<p>Wenn Sie eine “Linked Data” Ressource erstellt haben, können Sie
+<figure><img src="../fig/05-upload-drag-file.png" alt="Screenshot vom Dateiupload via Drag and Drop" class="figure mx-auto d-block"><div class="figcaption">Drag and Drop</div>
+</figure><figure><img src="../fig/05-upload-fill-metadata.png" alt="Screenshot vom Ausfüllen der Metadaten" class="figure mx-auto d-block"><div class="figcaption">Metadaten Ausfüllen</div>
+</figure><p>Wenn Sie eine “Linked Data” Ressource erstellt haben, können Sie
 keine Daten direkt in Coscine hochladen. Stattdessen verlinken Sie
 Daten, die in einer anderen Speicherumgebung gespeichert sind.
 Anschließend beschreiben Sie diese mit Metadaten. Nur die Metadaten sind
@@ -1126,7 +1192,7 @@ werden, da sich das System in diesem Rhythmus aktualisiert.</p>
 </div>
 </div></section><section id="aio-07-access-controls"><p>Content from <a href="07-access-controls.html">Zugriffsrechte verwalten</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/07-access-controls.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 5 minutes</p>
@@ -1152,7 +1218,7 @@ werden, da sich das System in diesem Rhythmus aktualisiert.</p>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Fügen Sie ihrem Projekt andere Personen mit versschieden Rollen
+<li>Fügen Sie ihrem Projekt andere Personen mit verschieden Rollen
 hinzu</li>
 </ul>
 </div>
@@ -1252,8 +1318,8 @@ zu werden, lassen Sie sich einladen.</p>
   "url": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
   "identifier": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
   "dateCreated": "224-11-18",
-  "dateModified": "2026-10-07",
-  "datePublished": "2026-10-07"
+  "dateModified": "2026-10-08",
+  "datePublished": "2026-10-08"
 }
 
   </script><script>
