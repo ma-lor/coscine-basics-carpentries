@@ -12,17 +12,21 @@ exercises: 0 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Führen Siedie folgenden Dateioperationen durch:
+- Führen Sie die folgenden Dateioperationen durch:
   - Hochladen
   - Herunterladen
-  - Löscehn
+  - Löschen
   - Filtern
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Upload
 
-Sofern Sie eine "Web" Ressource erstellt haben, können Sie nun Daten über Coscine hochladen. Sie können entweder einzelne Datein hochladen oder auch mehrere Dateien auf einmal. Ziehen Sie die Datein einfach in die Weboberfläche von Coscine oder laden Sie die Dateien über die Buttons "Datei auswählen" und "Hochladen" hoch. Sobald Sie Ihre Daten ausgewählt haben, müssen Sie diese rechts mit Metadaten beschreiben. Danach können Sie die Daten final hochladen.
+Sofern Sie eine "Web" Ressource erstellt haben, können Sie nun Daten über Coscine hochladen. Sie können entweder einzelne Dateien hochladen oder auch mehrere Dateien auf einmal. Ziehen Sie die Dateien einfach in die Weboberfläche von Coscine oder laden Sie die Dateien über die Buttons "Datei auswählen" und "Hochladen" hoch. Sobald Sie Ihre Daten ausgewählt haben, müssen Sie diese rechts mit Metadaten beschreiben. Danach können Sie die Daten final hochladen.
+
+![Drag and Drop](fig/05-upload-drag-file.png){alt="Screenshot vom Dateiupload via Drag and Drop"}
+
+![Metadaten Ausfüllen](fig/05-upload-fill-metadata.png){alt="Screenshot vom Ausfüllen der Metadaten"}
 
 Wenn Sie eine "Linked Data" Ressource erstellt haben, können Sie keine Daten direkt in Coscine hochladen. Stattdessen verlinken Sie Daten, die in einer anderen Speicherumgebung gespeichert sind. Anschließend beschreiben Sie diese mit Metadaten. Nur die Metadaten sind nun in Coscine hinterlegt. Neben diesen beiden Varianten besteht auch die Möglichkeit, Daten automatisiert über die API hochzuladen oder über den S3-Client, wenn Sie eine S3-Ressource gewählt haben. Weitere Informationen zur [API](https://docs.coscine.de/de/api/api/) und zu [S3-Clients](https://docs.coscine.de/de/resources/s3-clients/) finden Sie in der Coscine-Dokumentation.
 

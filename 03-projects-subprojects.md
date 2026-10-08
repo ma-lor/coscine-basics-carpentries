@@ -30,7 +30,7 @@ Projektstart                     Start des Projektes
 Projektende                      (Voraussichtliches) Projektende 
 Disziplin                        Entspricht der [DFG-Fachsystematik](https://www.dfg.de/resource/blob/172316/5863ef132d178054609f74940f6a27c9/fachsystematik-2016-2019-de-grafik-data.pdf) (Mehrfachauswahl möglich)
 Teilnehmende Organisationen      Verfügbare Organisationen basieren auf [ROR IDs](https://ror.org/). Falls die Organisation nicht gelistet ist, kann sie manuell eingegeben werden.
-Projektschlagwörter              Zur besseren Einordnung und Suchbarkeit des Projektes
+Projektschlagwörter              Zur besseren Einordnung und Findbarkeit des Projektes
 Sichtbarkeit der Metadaten       Public heißt: alle Nutzenden können die (Meta-)Daten in Coscine finden. Kein Zugriff auf die Daten. Anfrage zum Teilen der Daten möglich.
 GrantID                          Fördernummer des Projektes (falls vorhanden)
 ----------------------------     -----------------------------------------------------------------------------

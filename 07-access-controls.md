@@ -13,7 +13,7 @@ exercises: 2 # exercise time in minutes
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Fügen Sie ihrem Projekt andere Personen mit versschieden Rollen hinzu
+- Fügen Sie ihrem Projekt andere Personen mit verschieden Rollen hinzu
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
