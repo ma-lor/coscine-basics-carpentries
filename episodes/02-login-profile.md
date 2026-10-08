@@ -30,7 +30,7 @@ Falls Sie noch nicht registriert sind, legen Sie sich mit nur wenigen Klicks ein
 
 Nach dem Login landen Sie auf ihrer persönlichen Startseite:
 
-![Homepage](./fig/02-homepage.png){alt="Screenshot der Startseite nach dem Login"}
+![](./fig/02-homepage.png){alt="Screenshot der Startseite nach dem Login"}
 
 ::: instructor
 
@@ -68,3 +68,11 @@ Der erste Login mit einer Login-Möglichkeit erzeugt einen neuen Account! Zur be
 - Öffnen Sie Ihr Profil und vervollständigen Sie die fehlenden Informationen.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Login ist mit institutionellem Account oder ORCiD möglich
+- Verschiedene Login-Methoden erzeugen separate Accounts die verknüpft werden sollten
+- Kontoeinstellungen sind unter dem eigenen Namen oben rechts zu finden 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::

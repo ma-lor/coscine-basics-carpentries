@@ -33,3 +33,11 @@ Eingeladene Personen können verschiedene Rollen im Projekt besitzen:
 Laden Sie eine Person Ihrer Wahl (nach Absprache) zu einem Projekt ein. Wenn Sie die Möglichkeit haben, selbst zu einem Projekt eingeladen zu werden, lassen Sie sich einladen.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Projektmitglieder können aus anderen Projekten importiert und einzeln hinzugefügt werden
+- Es gibt ein Rollensystem mit verschiedenen Rechten (Owner, Member, Guest)
+- Mitglieder und Rollen werden an Unterprojekte weitergegeben 
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::

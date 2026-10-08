@@ -60,3 +60,11 @@ Gelöschte Inhalte können nicht wieder hergestellt werden.
 - Machen Sie sich mit der Filterfunktion vertraut.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Beim Upload müssen die Metadaten einer Datei angegeben werden
+- Gelöschte Dateien können nicht selbständig wiederhergestellt werden
+- Über Suche und Filter kann nach Dateien mit bestimmten Metadaten gesucht werden
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::

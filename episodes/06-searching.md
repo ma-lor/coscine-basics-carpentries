@@ -31,3 +31,11 @@ Die Daten können erst 24 Stunden nach Upload in Coscine gefunden werden, da sic
 Testen Sie die Suchfunktion mit Schlagwörtern Ihrer Wahl.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Wenn ihr Projekt "public" ist können die Metadaten von allen Nutzenden mit der Suche gefunden werden
+- Die Daten selbst sind nur für Mitglieder des Projekts sichtbar
+- Der Suchindex wird alle 24 Stunden aktualisiert, neue Projekte und Dateien können daher nicht sofort gefunden werden
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
