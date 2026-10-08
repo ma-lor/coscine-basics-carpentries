@@ -36,27 +36,27 @@ GrantID                          Fördernummer des Projektes (falls vorhanden)
 ----------------------------     -----------------------------------------------------------------------------
 
 ::::::::::::::::::::::::::::::::::::::: challenge
-Erstellen Sie Ihr eigenes Test-Projekt in Coscine.
+Sie sind PI und Datenmanager:in für das unten Beschriebene Projekt und wollen die anfallenden Daten In Coscine speichern. Legen sie das Projekt in Coscine an.
+Bitte wählen Sie bei "Sichtbarkeit der Metadaten" "Project Members" damit das Testprojekt nicht in der allgemeinen Suche auftaucht. Dies wird im Kapitel "Dateien Suchen" genauer erklärt.
+
+> **Titel**: Das Tauben-Parlament – Beobachtungen zu demokratischen Entscheidungsprozessen in städtischen Taubenschwärmen
+>
+> **Kurzbeschreibung**:
+> Seit Jahrhunderten versammeln sich Tauben auf Plätzen, Dächern und Brücken – und entscheiden gemeinsam: Wo wird gefressen? Wann wird geflogen? Wer bekommt den besten Krümel?
+> Dieses Projekt dokumentiert über 12 Monate die „Abstimmungsrituale" eines Taubenschwarms auf dem Marktplatz von Musterstadt.
+> Mithilfe von Zeitraffer-Videos, Audioaufnahmen der „Parlamentsdebatten" (Gurren, Schnattern, Flügelschlagen), GPS-Tracking der Individuen und systematischen Beobachtungsprotokollen soll herausgefunden werden, ob Taubenschwärme tatsächlich konsensorientiert oder eher nach dem Prinzip „der Lauteste gewinnt" funktionieren.
+>
+> **Laufzeit**: 12 Monate **Ort**: Marktplatz Musterstadt (3 Standorte: Brunnen, Rathausdach, Bäckereiterrasse) **Förderkennzeichen**: TAU-BE100
 
 ::: hint
-Verwenden Sie bei Bedarf folgende Metadaten:
 
-Projektname: Verkehrsanalyse und Optimierung im Aachener Verkehrsverbund
-
-Projektbeschreibung: Das Forschungsprojekt "Verkehrsanalyse und Optimierung im Aachener Verkehrsverbund" zielt darauf ab, durch die Analyse von umfangreichen  Daten des Verkehrssystems in Aachen Lösungsansätze für eine effizientere und benutzerfreundlichere Nutzung des öffentlichen Nahverkehrs zu entwickeln. Das Projekt umfasst die Sammlung und Integration verschiedener Datensätze, darunter Informationen zu Haltestellen, Masten sowie Tarifbedingungen, die in einer zentralen Plattform gespeichert und analysiert werden. Ziel ist es, die Effizienz des öffentlichen Nahverkehrs im Aachener Raum zu steigern, die Umweltbelastung zu reduzieren und gleichzeitig die Lebensqualität der Bewohner:innen zu verbessern.
-
-Projektleiter:in: [Sie]
-
-Projektstart: [Heute]
-
-Projektende: [Heute + 2 Jahre]
-
-Teilnehmende Organisationen: [Ihre Hochschule]
-
-Förderkennzeichen: XYZ-ABC123
+Es können mehrere Disziplinen angegeben werden. Bei Interdisziplinären Projekten macht es Sinn alle Disziplinen anzugeben.
 
 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::: challenge
+Die Daten der verschiedenen Beobachtungsstandorte sollen zuerst getrennt voneinander gesammelt und analysiert werden. Legen Sie jeweils ein Unterprojekt für jeden Standort an
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::: keypoints

@@ -30,7 +30,21 @@ Eingeladene Personen können verschiedene Rollen im Projekt besitzen:
 
 ::::::::::::::::::::::::::::::::::::::: challenge
 
-Laden Sie eine Person Ihrer Wahl (nach Absprache) zu einem Projekt ein. Wenn Sie die Möglichkeit haben, selbst zu einem Projekt eingeladen zu werden, lassen Sie sich einladen.
+Bilden Sie Gruppen und laden Sie sich gegenseitig als "Gast" in ihre Projekte ein. Welche Ressourcen können sie in den anderen Projekten sehen? Schauen Sie sich an welche Optionen Sie als Gast in einem Projekt haben haben.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: challenge
+
+Sie möchten, dass Ihr Feldteam die erhobenen Daten der nächsten Tage nicht erst an Sie schickt sondern direkt in Coscine hochläd. Gleichzeitig wollen Sie sicherstellen, dass niemand versehentlich die Daten eines anderes Teams überschreibt. Die Personen jedes Teams arbeiten die gesamte Projektlaufzeit nur ein einem Beobachtungsstandort. Kann dieser Plan in Coscine umgesetzt werden? Wenn ja: Wie muss das Projekt konfiguriert werden?
+
+:::::::::::::::  solution
+
+Dieser Plan kann umgesetzt werden, indem alle Teammitglieder dem Hauptprojekt nur als "Gast" hinzugefügt werden und dann dem Unterprojekt ihres Standortes als "Member". Auf diese Weise können alle im Team alle Daten einsehen, aber nur in ihre "eigenen" Ressourcen schreiben.  
+
+Wenn der Lesezugriff für das ganze Team nicht wichtig ist, kann der Gastzugriff auf das Hauptprojekt auch entfallen.
+
+:::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
