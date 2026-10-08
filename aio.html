@@ -478,7 +478,7 @@ Resource dargestellt. <img src="./fig/Coscine_Struktur.png" alt="Schaubild der D
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
   <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>Ein Metadatenprofil legt fest welche Informationen unter welchem
 Namen zu einer Datei gespeichert werden. Hier Beispielhaft das “Base
@@ -551,8 +551,7 @@ Klicks eine <a href="https://orcid.org/register" class="external-link">ORCiD</a>
 </div>
 </div>
 <p>Nach dem Login landen Sie auf ihrer persönlichen Startseite:</p>
-<figure><img src="./fig/02-homepage.png" alt="Screenshot der Startseite nach dem Login" class="figure mx-auto d-block"><div class="figcaption">Homepage</div>
-</figure></section><section><h2 class="section-heading" id="profileinstellungen">Profileinstellungen<a class="anchor" aria-label="anchor" href="#profileinstellungen"></a>
+<figure><img src="./fig/02-homepage.png" alt="Screenshot der Startseite nach dem Login" class="figure mx-auto d-block"></figure></section><section><h2 class="section-heading" id="profileinstellungen">Profileinstellungen<a class="anchor" aria-label="anchor" href="#profileinstellungen"></a>
 </h2>
 <hr class="half-width">
 <p>Die Profileinstellungen finden Sie unter [Ihr Name] &gt;
@@ -614,6 +613,23 @@ Informationen.</li>
 <li>Melden Sie sich bei <a href="https://coscine.rwth-aachen.de/login" class="external-link">Coscine</a> mit Ihrer <a href="https://orcid.org/" class="external-link">ORCiD</a> an.</li>
 <li>Öffnen Sie Ihr Profil und vervollständigen Sie die fehlenden
 Informationen.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Login ist mit institutionellem Account oder ORCiD möglich</li>
+<li>Verschiedene Login-Methoden erzeugen separate Accounts die verknüpft
+werden sollten</li>
+<li>Kontoeinstellungen sind unter dem eigenen Namen oben rechts zu
+finden</li>
 </ul>
 </div>
 </div>
@@ -701,7 +717,7 @@ gelistet ist, kann sie manuell eingegeben werden.</td>
 </tr>
 <tr>
 <td align="left">Projektschlagwörter</td>
-<td align="left">Zur besseren Einordnung und Findbarkeit des
+<td align="left">Zur besseren Einordnung und Auffindbarkeit des
 Projektes</td>
 </tr>
 <tr>
@@ -732,7 +748,7 @@ möglich.</td>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
 <div class="accordion-body">
 <p>Verwenden Sie bei Bedarf folgende Metadaten:</p>
 <p>Projektname: Verkehrsanalyse und Optimierung im Aachener
@@ -754,6 +770,21 @@ Lebensqualität der Bewohner:innen zu verbessern.</p>
 <p>Teilnehmende Organisationen: [Ihre Hochschule]</p>
 <p>Förderkennzeichen: XYZ-ABC123</p>
 </div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Projekte und Unterprojekte funktionieren ähnlich wie Ordner</li>
+<li>Projekte sollten sorgfältig mit Metadaten beschreiben werden um
+Auffindbar zu bleiben</li>
+</ul>
 </div>
 </div>
 </div>
@@ -945,7 +976,7 @@ Data“.</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>Verwenden Sie das Metadatenprofil „Base Profile“.</p>
 </div>
@@ -957,7 +988,7 @@ Data“.</li>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint2" aria-expanded="false" aria-controls="collapseHint2">
   <h4 class="accordion-header" id="headingHint2"> Give me a hint </h4>
 </button>
-<div id="collapseHint2" class="accordion-collapse collapse" aria-labelledby="headingHint2" data-bs-parent="#accordionHint2">
+<div id="collapseHint2" class="accordion-collapse collapse" data-bs-parent="#accordionHint2" aria-labelledby="headingHint2">
 <div class="accordion-body">
 <p>Verwenden Sie bei Bedarf diese Metadaten: Ressourcenname:
 Basisdaten</p>
@@ -970,6 +1001,29 @@ Gauß-Krüger 2 (EPSG:31466) gepflegt.</p>
 <p>Lizenz: CC BY 4.0 (Attribution)</p>
 <p>Interne Regeln zur Nachnutzung: Keine</p>
 </div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Es gibt 5 Ressourcentypen, die wichtigsten sind:
+<ul>
+<li>Web: “Standard” für Daten in Coscine</li>
+<li>S3: Kompatibel mit dem S3-Standard, nur auf Antrag erhältlich</li>
+<li>Linked Data: Externe Daten für die nur Metadaten in Coscine
+gespeichert werden</li>
+</ul>
+</li>
+<li>Jede Ressource ist fest mit einem Metadatenprofil verknüpft</li>
+<li>Metadatenprofile können aus einer Liste ausgewählt, oder (mit etwas
+Vorlauf) neu vorgeschlagen werden</li>
+</ul>
 </div>
 </div>
 </div>
@@ -1100,13 +1154,30 @@ Sie die Metadaten aus.</li>
 </div>
 </div>
 </div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Beim Upload müssen die Metadaten einer Datei angegeben werden</li>
+<li>Gelöschte Dateien können nicht selbständig wiederhergestellt
+werden</li>
+<li>Über Suche und Filter kann nach Dateien mit bestimmten Metadaten
+gesucht werden</li>
+</ul>
+</div>
+</div>
+</div>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </section></section><section id="aio-06-searching"><p>Content from <a href="06-searching.html">Dateien Suchen</a></p>
 <hr>
-<p>Last updated on 2026-10-07 |
+<p>Last updated on 2026-10-08 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/06-searching.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1166,6 +1237,23 @@ werden, da sich das System in diesem Rhythmus aktualisiert.</p>
 <h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
 <p>Testen Sie die Suchfunktion mit Schlagwörtern Ihrer Wahl.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Wenn ihr Projekt “public” ist können die Metadaten von allen
+Nutzenden mit der Suche gefunden werden</li>
+<li>Die Daten selbst sind nur für Mitglieder des Projekts sichtbar</li>
+<li>Der Suchindex wird alle 24 Stunden aktualisiert, neue Projekte und
+Dateien können daher nicht sofort gefunden werden</li>
+</ul>
 </div>
 </div>
 </div></section><section id="aio-07-access-controls"><p>Content from <a href="07-access-controls.html">Zugriffsrechte verwalten</a></p>
@@ -1245,6 +1333,23 @@ ein. Wenn Sie die Möglichkeit haben, selbst zu einem Projekt eingeladen
 zu werden, lassen Sie sich einladen.</p>
 </div>
 </div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Projektmitglieder können aus anderen Projekten importiert und
+einzeln hinzugefügt werden</li>
+<li>Es gibt ein Rollensystem mit verschiedenen Rechten (Owner, Member,
+Guest)</li>
+<li>Mitglieder und Rollen werden an Unterprojekte weitergegeben</li>
+</ul>
+</div>
+</div>
 </div></section>
 </div>
     </main>
@@ -1294,7 +1399,7 @@ zu werden, lassen Sie sich einladen.</p>
   "creativeWorkStatus": "active",
   "url": "https://ma-lor.github.io/coscine-basics-carpentries/aio.html",
   "identifier": "https://ma-lor.github.io/coscine-basics-carpentries/aio.html",
-  "dateCreated": "224-11-18",
+  "dateCreated": "2024-11-18",
   "dateModified": "2026-10-08",
   "datePublished": "2026-10-08"
 }
