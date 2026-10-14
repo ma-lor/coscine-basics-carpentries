@@ -326,6 +326,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush9">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading9">
+        <a href="08-api.html">8. Automatisierte Dateiverwaltung</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -560,7 +572,7 @@ Klicks eine <a href="https://orcid.org/register" class="external-link">ORCiD</a>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>Nach dem Login ist ein guter Zeitpunkt auf die Teilnehmer / Fragen zu
 warten und um auf die Mail-Verification für neue Accounts
@@ -788,7 +800,7 @@ Musterstadt (3 Standorte: Brunnen, Rathausdach, Bäckereiterrasse)
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>Es können mehrere Disziplinen angegeben werden. Bei
 Interdisziplinären Projekten macht es Sinn alle Disziplinen
@@ -1017,7 +1029,7 @@ sind:</strong></p>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint1" aria-expanded="false" aria-controls="collapseHint1">
   <h4 class="accordion-header" id="headingHint1"> Give me a hint </h4>
 </button>
-<div id="collapseHint1" class="accordion-collapse collapse" aria-labelledby="headingHint1" data-bs-parent="#accordionHint1">
+<div id="collapseHint1" class="accordion-collapse collapse" data-bs-parent="#accordionHint1" aria-labelledby="headingHint1">
 <div class="accordion-body">
 <p>Wenn Sie auf die schnelle kein besseres Profil finden können Sie für
 alle Ressourcen das “Basisprofil” nutzen</p>
@@ -1030,7 +1042,7 @@ alle Ressourcen das “Basisprofil” nutzen</p>
 <button class="accordion-button hint-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHint2" aria-expanded="false" aria-controls="collapseHint2">
   <h4 class="accordion-header" id="headingHint2"> Give me a hint </h4>
 </button>
-<div id="collapseHint2" class="accordion-collapse collapse" aria-labelledby="headingHint2" data-bs-parent="#accordionHint2">
+<div id="collapseHint2" class="accordion-collapse collapse" data-bs-parent="#accordionHint2" aria-labelledby="headingHint2">
 <div class="accordion-body">
 <p>Die richtige Anzahl an Ressourcen für ein Projekt zu finden kann eine
 Kunst für sich sein. Da jeden Ressource nur genau ein Profil haben kann,
@@ -1071,7 +1083,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-05-crud"><p>Content from <a href="05-crud.html">Dateiupload, -download und -löschung</a></p>
 <hr>
-<p>Last updated on 2026-10-08 |
+<p>Last updated on 2026-10-14 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/05-crud.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 2 minutes</p>
@@ -1121,9 +1133,7 @@ die Weboberfläche von Coscine oder laden Sie die Dateien über die
 Buttons “Datei auswählen” und “Hochladen” hoch. Sobald Sie Ihre Daten
 ausgewählt haben, müssen Sie diese rechts mit Metadaten beschreiben.
 Danach können Sie die Daten final hochladen.</p>
-<figure><img src="../fig/05-upload-drag-file.png" alt="Screenshot vom Dateiupload via Drag and Drop" class="figure mx-auto d-block"><div class="figcaption">Drag and Drop</div>
-</figure><figure><img src="../fig/05-upload-fill-metadata.png" alt="Screenshot vom Ausfüllen der Metadaten" class="figure mx-auto d-block"><div class="figcaption">Metadaten Ausfüllen</div>
-</figure><p>Wenn Sie eine “Linked Data” Ressource erstellt haben, können Sie
+<figure><img src="../fig/05-upload-drag-file.png" alt="Screenshot vom Dateiupload via Drag and Drop" class="figure mx-auto d-block"></figure><figure><img src="../fig/05-upload-fill-metadata.png" alt="Screenshot vom Ausfüllen der Metadaten" class="figure mx-auto d-block"></figure><p>Wenn Sie eine “Linked Data” Ressource erstellt haben, können Sie
 keine Daten direkt in Coscine hochladen. Stattdessen verlinken Sie
 Daten, die in einer anderen Speicherumgebung gespeichert sind.
 Anschließend beschreiben Sie diese mit Metadaten. Nur die Metadaten sind
@@ -1432,7 +1442,372 @@ Guest)</li>
 </ul>
 </div>
 </div>
-</div></section>
+</div></section><section id="aio-08-api"><p>Content from <a href="08-api.html">Automatisierte Dateiverwaltung</a></p>
+<hr>
+<p>Last updated on 2026-10-14 |
+
+        <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/08-api.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Wie können Dateien mit programmatisch verändert und beschrieben
+werden?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Lade eine Datei mithilfe eines Skripts hoch.</li>
+<li>Ändere die Metadaten einer Datei mithilfe der API.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="zugriffstoken">Zugriffstoken<a class="anchor" aria-label="anchor" href="#zugriffstoken"></a>
+</h2>
+<hr class="half-width">
+<p>Um die API von Coscine nutzen zu können wird ein persönliches
+Zugriffstoken benötigt. Die Token können im Nutzendenprofil unter
+“Zugriffstoken erstellen” angelegt werden.</p>
+<div id="callout1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Ein Zugriffstoken funktioniert wie ein zweites Password für ihren
+Account und sollte entsprechend geschützt werden. Löschen Sie Token, die
+Sie nicht länger benötigen.</p>
+</div>
+</div>
+</div>
+<p>Der Name des Tokens wird nur benötigt, damit Sie ihre Token
+identifizieren können. Es wird generell empfohlen ein Token pro Projekt
+/ Anwendungsfall anzulegen und spätestens mit dem Projektende ablaufen
+zu lassen.</p>
+<p>Nach der Erstellung wird ihnen das Token angezeigt. Wichtig: Dies ist
+die einzige Gelegenheit das Token einzusehen, daher sollten Sie es
+sicher (z.B. in einem Passwortmanager) abspeichern.</p>
+</section><section><h2 class="section-heading" id="api-anfragen-mit-swagger-doku-curl">API Anfragen mit Swagger Doku &amp; curl<a class="anchor" aria-label="anchor" href="#api-anfragen-mit-swagger-doku-curl"></a>
+</h2>
+<hr class="half-width">
+<p>Die Coscine API verfügt gleich über zwei interaktive Dokumentationen:
+<a href="https://coscine.rwth-aachen.de/coscine/api/swagger/index.html" class="external-link">Swagger</a>
+und <a href="https://coscine.rwth-aachen.de/coscine/apps/apidocs/" class="external-link">Scalar</a>.
+Die folgenden Beschreibungen beziehen sich auf die Swagger
+Dokumentation, sollten sich jedoch nicht wesentlich von der anderen
+Variante unterscheiden. Mit der API können alle Aktionen durchgeführt
+werden die ihnen auch in der Weboberfläche zur Verfügung stehen. In
+diesem Workshop werden wir uns auf das Hoch- und Herunterladen von
+Dateien konzentrieren.</p>
+<p>Zuerst benötigen wir eine Datei mit etwas Inhalt:</p>
+<pre class="text"><code>Dies ist eine Testdatei.</code></pre>
+<p>Dann suchen wir den richtigen Endpunkt in der Swagger Dokumentation.
+Die relevante Gruppe heißt “StorageContent” wir müssen also etwas
+scrollen oder mit der Suche (<code>Strg+f</code>) an die richtige Stelle
+springen.</p>
+<figure><img src="../fig/08-swagger-upload.png" alt="Screenshot der Swagger Doku mit dem Endpunkt zum Upload" class="figure mx-auto d-block"></figure><p>Zuerst müssen wir uns authentifizieren, was über das Schloss-Symbol
+in der oberen rechten Ecke der Box möglich ist. In den folgenden Dialog
+kopieren wir unser Zugriffstoken.<br>
+Danach kann mit dem Knopf “Try it out” der interaktive Modus gestartet
+werden.</p>
+<p>Der Endpunkt benötigt vier Parameter:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>projectId</strong><br>
+Dieser Parameter, genau wie die resourceId danach könnte mithilfe von
+anderen API Endpunkten herausgefunden werden. Für den Moment ist es aber
+einfacher beide Werte aus der Weboberfläche herauszusuchen. Die
+projectId kann in den Projekteinstellungen unter der Bezeichnung
+<code>Slug</code> gefunden werden. <img src="../fig/08-project-slug.png" alt="Screenshot der Projekteinstellungen mit markiertem project-slug" class="figure"></p></li>
+<li><p><strong>resourceId</strong><br>
+Dieser Parameter kann in der Weboberfläche unter
+“Ressourcenkonfiguration anzeigen” &gt; “Bucket-Name” gefunden werden:
+<img src="../fig/08-resource-configuration.png" alt="Screenshot der Ressourcenübersicht mit markiertem Konfiguration anzeigen" class="figure"><img src="../fig/08-resource-bucket-name.png" alt="Screenshot der Ressourcenkonfiguration mit markiertem Bucket-Name" class="figure"></p></li>
+<li><p><strong>encodedPath</strong><br>
+Der Pfad unter dem die Datei in der Coscine-Ressource gespeichert werden
+soll in URL-Codierung. Wenn sie gezwungen sind Sonderzeichen in den
+Dateipfaden zu verwenden sollten Sie dafür einen online URL-Encoder
+nutzen. Wenn Sie nur Buchstaben, Zahlen und Leerzeichen verwenden kann
+die Codierung auch von Hand durchgeführt werden: Alle <code>/</code>
+müssen mit <code>%2F</code> und alle Leerzeichen mit <code>%20</code>
+ersetzt werden. Aus <code>test/Test Datei.txt</code> würde also
+<code>test%2FTest%20Datei.txt</code>.</p></li>
+<li><p><strong>Die Datei die hochgeladen werden soll</strong></p></li>
+</ol>
+<p>Anschließend können wir die Anfrage mit “Execute” absenden. Daraufhin
+erscheint eine Box mit einem curl-Befehl mit dem wir die selbe Anfrage
+von einem lokalen Terminal aus erzeugen können. Auf diese Weise können
+wir aus verschiedenen Anfragen ein Script für komplexere Abläufe
+erstellen.</p>
+<p>Darunter ist die Box mit der Antwort des Servers. <strong>Wir haben
+eine Fehlermeldung erhalten!</strong></p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">JSON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode json" tabindex="0"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a>  <span class="dt">"data"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1" aria-label="code-block-2-3"></a>    <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"https://tools.ietf.org/html/rfc7231#section-6.5.1"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1" aria-label="code-block-2-4"></a>    <span class="dt">"title"</span><span class="fu">:</span> <span class="st">"Bad Request"</span><span class="fu">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1" aria-label="code-block-2-5"></a>    <span class="dt">"status"</span><span class="fu">:</span> <span class="dv">400</span><span class="fu">,</span></span>
+<span id="cb2-6"><a href="#cb2-6" tabindex="-1" aria-label="code-block-2-6"></a>    <span class="dt">"instance"</span><span class="fu">:</span> <span class="st">"/api/v2/projects/{projectId}/resources/{resourceId}/storage/test.txt/content"</span><span class="fu">,</span></span>
+<span id="cb2-7"><a href="#cb2-7" tabindex="-1" aria-label="code-block-2-7"></a>    <span class="dt">"httpMethod"</span><span class="fu">:</span> <span class="st">"POST"</span><span class="fu">,</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1" aria-label="code-block-2-8"></a>    <span class="dt">"errorId"</span><span class="fu">:</span> <span class="st">"MissingMetadataBadRequestException"</span></span>
+<span id="cb2-9"><a href="#cb2-9" tabindex="-1" aria-label="code-block-2-9"></a>  <span class="fu">},</span></span>
+<span id="cb2-10"><a href="#cb2-10" tabindex="-1" aria-label="code-block-2-10"></a>  <span class="dt">"statusCode"</span><span class="fu">:</span> <span class="dv">400</span><span class="fu">,</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1" aria-label="code-block-2-11"></a>  <span class="dt">"isSuccess"</span><span class="fu">:</span> <span class="kw">false</span><span class="fu">,</span></span>
+<span id="cb2-12"><a href="#cb2-12" tabindex="-1" aria-label="code-block-2-12"></a>  <span class="dt">"traceId"</span><span class="fu">:</span> <span class="st">"XXXXXXX:00000"</span><span class="fu">,</span></span>
+<span id="cb2-13"><a href="#cb2-13" tabindex="-1" aria-label="code-block-2-13"></a>  <span class="dt">"pagination"</span><span class="fu">:</span> <span class="kw">null</span><span class="fu">,</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1" aria-label="code-block-2-14"></a>  <span class="dt">"categories"</span><span class="fu">:</span> <span class="kw">null</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1" aria-label="code-block-2-15"></a><span class="fu">}</span></span></code></pre>
+</div>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Auch bei Verwendung der API stellt Coscine sicher, dass für jede
+Datei Metadaten hochgeladen werden. Wir müssen erst die Metadaten für
+den Zielpfad und dann die Datei selbst hochladen.</p>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="hochladen-von-metadaten">Hochladen von Metadaten<a class="anchor" aria-label="anchor" href="#hochladen-von-metadaten"></a>
+</h3>
+<p>Für das Hochladen von Metadaten wird ein Endpunkt der Gruppe
+“GraphMetadataContent” benötigt. Die Benennung kommt daher, dass aus
+allen Metadaten in Coscine ein Wissensgraph erstellt wird, der mit
+diesen Endpunkten verändert wird.</p>
+<figure><img src="../fig/08-swagger-metadata-upload.png" alt="Screenshot der Swagger Doku mit dem Endpunkt zum Upload von Metadaten" class="figure mx-auto d-block"></figure><p>Die ersten drei Parameter können wir eins-zu-eins vom Endpunkt zum
+Upload der Datei übernehmen, der vierte ist etwas komplizierter. Hier
+benötigen wir die Metadaten für die Datei, wie sie im Metadatenprofil
+der Zielressource vorgegeben sind und nach <code>ld+json</code> oder
+<code>turtle</code> formatiert. Auch hier wäre es theoretisch möglich
+die benötigten Informationen mit mehreren Anfragen an die API
+zusammenzusetzen, in der Praxis ist das allerdings viel zu aufwändig.
+Daher helfen wir uns auch hier durch kreative Nutzung der Weboberfläche
+aus.</p>
+<p>Wir starten den Prozess eine Datei (oder Metadaten im falle einer
+LinkedData Ressource) Hochzuladen und öffnen vor dem Absenden die
+Entwicklerwerkzeuge des Browsers (Bei den meisen Browsern
+<code>F12</code>) und wählen das Tool “Netzwerkanalyse” (Der genaue Name
+hängt vom Browser ab).</p>
+<p>Dann laden wir die Datei hoch. In der Netzwerkanalyse sollte jetzt
+ein <code>POST</code> mit den Metadaten auftauchen. Aus der Anfrage
+dieses Eintrag können wir uns die benötigten Daten herauskopieren:</p>
+<figure><img src="../fig/08-browser-devtools.png" alt="Screenshot der Entwicklerwerkzeuge aus Firefox" class="figure mx-auto d-block"></figure><p>Auf Basis dieser Beispieldaten kann in der Regel leicht von Hand ein
+neuer Metadatensatz erstellt werden.</p>
+<pre class="turtle"><code>
+_:b2 a &lt;https://purl.org/coscine/ap/base/&gt; ;
+	&lt;http://purl.org/dc/terms/creator&gt; "Marvin Lorber" ;
+	&lt;http://purl.org/dc/terms/created&gt; "2026-10-08"^^&lt;http://www.w3.org/2001/XMLSchema#date&gt; ;
+	&lt;http://purl.org/dc/terms/subject&gt; &lt;http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-03&gt; ;
+	&lt;http://purl.org/dc/terms/type&gt; &lt;http://purl.org/dc/dcmitype/Text&gt; ;
+	&lt;http://purl.org/dc/terms/title&gt; "Ein Test der API" .
+
+</code></pre>
+<p>Jetzt können wir die Metadaten auch über die API hochladen, für den
+“Request Body” muss in Swagger <code>text/turtle</code> ausgewählt
+werden. Beachten Sie, dass falls für den angegebenen Pfad bereits
+Metadaten existieren diese “still” mit einer neuen Version überschrieben
+werden.</p>
+<p>Anschließend können wir auch die Datei selbst über die API hochladen.
+Dafür können wir dieses Mal der curl Befehl nutzen der uns beim ersten
+Versuch generiert wurde. Dafür muss gegebenenfalls der Pfad in der
+letzten Zeile angepasst werden, damit er auf die Datei auf unserer
+Festplatte zeigt.</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1" aria-label="code-block-4-1"></a><span class="ex">curl</span> <span class="at">-X</span> <span class="st">'POST'</span> <span class="dt">\</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1" aria-label="code-block-4-2"></a>  <span class="st">'https://coscine.rwth-aachen.de/coscine/api/v2/projects/{projectId}/resources/{resourceId}/storage/test.txt/content'</span> <span class="dt">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1" aria-label="code-block-4-3"></a>  <span class="at">-H</span> <span class="st">'accept: */*'</span> <span class="dt">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1" aria-label="code-block-4-4"></a>  <span class="at">-H</span> <span class="st">'Authorization: Bearer [Token]'</span> <span class="dt">\</span></span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1" aria-label="code-block-4-5"></a>  <span class="at">-H</span> <span class="st">'Content-Type: multipart/form-data'</span> <span class="dt">\</span></span>
+<span id="cb4-6"><a href="#cb4-6" tabindex="-1" aria-label="code-block-4-6"></a>  <span class="at">-F</span> <span class="st">'file=@test.txt;type=text/plain'</span></span></code></pre>
+</div>
+</div>
+<div class="section level3">
+<h3 id="herunterladen-von-dateien">Herunterladen von Dateien<a class="anchor" aria-label="anchor" href="#herunterladen-von-dateien"></a>
+</h3>
+<p>Zeit die neu erstellte Datei herunterzuladen. Dafür benötigen wir
+wieder einen Endpunkt aus der Gruppe “StorageContent”. Die drei
+benötigeten Parameter können wir von unseren bisherigen Anfragen
+übernehmen.</p>
+<p>Wenn wir den generierten curl Befehl lokal ausführen wird uns der
+Inhalt der Datei im Terminal ausgegeben. Um den Inhalt direkt in eine
+Datei umzuleiten können wir die <code>-o</code> Option nutzen.</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a><span class="ex">curl</span> <span class="at">-X</span> <span class="st">'GET'</span> <span class="dt">\</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a>  <span class="st">'https://coscine.rwth-aachen.de/coscine/api/v2/projects/{projektId}/resources/{resourceId}/storage/test.txt/content'</span> <span class="dt">\</span></span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a>  <span class="at">-H</span> <span class="st">'accept: application/octet-stream'</span> <span class="dt">\</span></span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1" aria-label="code-block-5-4"></a>  <span class="at">-H</span> <span class="st">'Authorization: Bearer [Token]'</span> <span class="dt">\</span></span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1" aria-label="code-block-5-5"></a>  <span class="at">-o</span> test.txt</span></code></pre>
+</div>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge</h3>
+<div class="callout-content">
+<p>Diese Challenge erfordert gundlegende Kenntnisse in der
+Programmierung mit Bash. Sie haben einen Algorithmus entwickelt um die
+Beobachtungsprotokolle automatisiert zu annotieren. Um die Verarbeitung
+auf einem Rechencluster durchführen zu können müssen Sie Herunter- und
+Hochladen von Dateien automatisieren.<br>
+Schreiben Sie ein Skript um alle obs_***.csv über die API
+herunterzuladen und anschließend annotiert_obs_***.csv mit passenden
+Metadaten hochzuladen.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1" aria-label="code-block-6-1"></a><span class="co">#!/usr/bin/env bash</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1" aria-label="code-block-6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1" aria-label="code-block-6-3"></a><span class="va">API_TOKEN</span><span class="op">=</span><span class="st">"</span><span class="va">${COSINE_API_TOKEN</span><span class="op">:?</span>Setze die Umgebungsvariable COSINE_API_TOKEN<span class="va">}</span><span class="st">"</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1" aria-label="code-block-6-4"></a><span class="va">BASE_URL</span><span class="op">=</span><span class="st">"https://coscine.rwth-aachen.de/coscine/api/v2"</span></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1" aria-label="code-block-6-5"></a></span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1" aria-label="code-block-6-6"></a><span class="co"># ============================================================</span></span>
+<span id="cb6-7"><a href="#cb6-7" tabindex="-1" aria-label="code-block-6-7"></a><span class="co">#  Liste der zu ladenden Dateien</span></span>
+<span id="cb6-8"><a href="#cb6-8" tabindex="-1" aria-label="code-block-6-8"></a><span class="co">#  Format: "projektId|resourceId|filename"</span></span>
+<span id="cb6-9"><a href="#cb6-9" tabindex="-1" aria-label="code-block-6-9"></a><span class="co"># ============================================================</span></span>
+<span id="cb6-10"><a href="#cb6-10" tabindex="-1" aria-label="code-block-6-10"></a><span class="va">FILES</span><span class="op">=</span><span class="va">(</span></span>
+<span id="cb6-11"><a href="#cb6-11" tabindex="-1" aria-label="code-block-6-11"></a>    <span class="st">"12345|67890|obs_2025-01-15_brunnen.csv"</span></span>
+<span id="cb6-12"><a href="#cb6-12" tabindex="-1" aria-label="code-block-6-12"></a>    <span class="st">"12345|67890|obs_2025-01-15_rathausdach.csv"</span></span>
+<span id="cb6-13"><a href="#cb6-13" tabindex="-1" aria-label="code-block-6-13"></a>    <span class="st">"23456|78901|obs_2025-01-15_baeckerei.csv"</span></span>
+<span id="cb6-14"><a href="#cb6-14" tabindex="-1" aria-label="code-block-6-14"></a><span class="va">)</span></span>
+<span id="cb6-15"><a href="#cb6-15" tabindex="-1" aria-label="code-block-6-15"></a></span>
+<span id="cb6-16"><a href="#cb6-16" tabindex="-1" aria-label="code-block-6-16"></a><span class="co"># ============================================================</span></span>
+<span id="cb6-17"><a href="#cb6-17" tabindex="-1" aria-label="code-block-6-17"></a><span class="co">#  Hilfsfunktionen</span></span>
+<span id="cb6-18"><a href="#cb6-18" tabindex="-1" aria-label="code-block-6-18"></a><span class="co"># ============================================================</span></span>
+<span id="cb6-19"><a href="#cb6-19" tabindex="-1" aria-label="code-block-6-19"></a></span>
+<span id="cb6-20"><a href="#cb6-20" tabindex="-1" aria-label="code-block-6-20"></a><span class="fu">download_file()</span> <span class="kw">{</span></span>
+<span id="cb6-21"><a href="#cb6-21" tabindex="-1" aria-label="code-block-6-21"></a>    <span class="bu">local</span> <span class="va">projekt_id</span><span class="op">=</span><span class="st">"</span><span class="va">$1</span><span class="st">"</span></span>
+<span id="cb6-22"><a href="#cb6-22" tabindex="-1" aria-label="code-block-6-22"></a>    <span class="bu">local</span> <span class="va">resource_id</span><span class="op">=</span><span class="st">"</span><span class="va">$2</span><span class="st">"</span></span>
+<span id="cb6-23"><a href="#cb6-23" tabindex="-1" aria-label="code-block-6-23"></a>    <span class="bu">local</span> <span class="va">filename</span><span class="op">=</span><span class="st">"</span><span class="va">$3</span><span class="st">"</span></span>
+<span id="cb6-24"><a href="#cb6-24" tabindex="-1" aria-label="code-block-6-24"></a></span>
+<span id="cb6-25"><a href="#cb6-25" tabindex="-1" aria-label="code-block-6-25"></a>    <span class="bu">local</span> <span class="va">url</span><span class="op">=</span><span class="st">"</span><span class="va">${BASE_URL}</span><span class="st">/projects/</span><span class="va">${projekt_id}</span><span class="st">/resources/</span><span class="va">${resource_id}</span><span class="st">/storage/</span><span class="va">${filename}</span><span class="st">/content"</span></span>
+<span id="cb6-26"><a href="#cb6-26" tabindex="-1" aria-label="code-block-6-26"></a>    <span class="bu">local</span> <span class="va">dest</span><span class="op">=</span><span class="st">"./</span><span class="va">${filename}</span><span class="st">"</span></span>
+<span id="cb6-27"><a href="#cb6-27" tabindex="-1" aria-label="code-block-6-27"></a></span>
+<span id="cb6-28"><a href="#cb6-28" tabindex="-1" aria-label="code-block-6-28"></a>    <span class="ex">curl</span> <span class="at">-X</span> GET <span class="at">-o</span> <span class="st">"</span><span class="va">$dest</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-29"><a href="#cb6-29" tabindex="-1" aria-label="code-block-6-29"></a>        <span class="at">-H</span> <span class="st">"Authorization: Bearer </span><span class="va">${API_TOKEN}</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-30"><a href="#cb6-30" tabindex="-1" aria-label="code-block-6-30"></a>        <span class="at">-H</span> <span class="st">"Accept: application/octet-stream"</span> <span class="dt">\</span></span>
+<span id="cb6-31"><a href="#cb6-31" tabindex="-1" aria-label="code-block-6-31"></a>        <span class="st">"</span><span class="va">$url</span><span class="st">"</span></span>
+<span id="cb6-32"><a href="#cb6-32" tabindex="-1" aria-label="code-block-6-32"></a><span class="kw">}</span></span>
+<span id="cb6-33"><a href="#cb6-33" tabindex="-1" aria-label="code-block-6-33"></a></span>
+<span id="cb6-34"><a href="#cb6-34" tabindex="-1" aria-label="code-block-6-34"></a><span class="fu">upload_metadata()</span> <span class="kw">{</span></span>
+<span id="cb6-35"><a href="#cb6-35" tabindex="-1" aria-label="code-block-6-35"></a>    <span class="bu">local</span> <span class="va">projekt_id</span><span class="op">=</span><span class="st">"</span><span class="va">$1</span><span class="st">"</span></span>
+<span id="cb6-36"><a href="#cb6-36" tabindex="-1" aria-label="code-block-6-36"></a>    <span class="bu">local</span> <span class="va">resource_id</span><span class="op">=</span><span class="st">"</span><span class="va">$2</span><span class="st">"</span></span>
+<span id="cb6-37"><a href="#cb6-37" tabindex="-1" aria-label="code-block-6-37"></a>    <span class="bu">local</span> <span class="va">filename</span><span class="op">=</span><span class="st">"</span><span class="va">$3</span><span class="st">"</span></span>
+<span id="cb6-38"><a href="#cb6-38" tabindex="-1" aria-label="code-block-6-38"></a></span>
+<span id="cb6-39"><a href="#cb6-39" tabindex="-1" aria-label="code-block-6-39"></a>    <span class="bu">local</span> <span class="va">dest</span><span class="op">=</span><span class="st">"annotiert_</span><span class="va">$(</span><span class="ex">jq</span> <span class="at">-rn</span> <span class="at">--arg</span> x <span class="va">${filename}</span> <span class="st">'$x|@uri'</span><span class="va">)</span><span class="st">"</span></span>
+<span id="cb6-40"><a href="#cb6-40" tabindex="-1" aria-label="code-block-6-40"></a>    <span class="bu">local</span> <span class="va">url</span><span class="op">=</span><span class="st">"</span><span class="va">${BASE_URL}</span><span class="st">/projects/</span><span class="va">${projekt_id}</span><span class="st">/resources/</span><span class="va">${resource_id}</span><span class="st">/graphs/</span><span class="va">${dest}</span><span class="st">/metadata/content"</span></span>
+<span id="cb6-41"><a href="#cb6-41" tabindex="-1" aria-label="code-block-6-41"></a>    </span>
+<span id="cb6-42"><a href="#cb6-42" tabindex="-1" aria-label="code-block-6-42"></a>    <span class="bu">local</span> <span class="va">metadata</span><span class="op">=</span><span class="st">"</span></span>
+<span id="cb6-43"><a href="#cb6-43" tabindex="-1" aria-label="code-block-6-43"></a><span class="st">_:b2 a &lt;https://purl.org/coscine/ap/base/&gt; ;</span></span>
+<span id="cb6-44"><a href="#cb6-44" tabindex="-1" aria-label="code-block-6-44"></a><span class="st">	&lt;http://purl.org/dc/terms/creator&gt; </span><span class="dt">\"</span><span class="st">Ihr Name</span><span class="dt">\"</span><span class="st"> ;</span></span>
+<span id="cb6-45"><a href="#cb6-45" tabindex="-1" aria-label="code-block-6-45"></a><span class="st">	&lt;http://purl.org/dc/terms/created&gt; </span><span class="dt">\"</span><span class="va">$(</span><span class="fu">date</span> <span class="at">-I</span><span class="va">)</span><span class="dt">\"</span><span class="st">^^&lt;http://www.w3.org/2001/XMLSchema#date&gt; ;</span></span>
+<span id="cb6-46"><a href="#cb6-46" tabindex="-1" aria-label="code-block-6-46"></a><span class="st">	&lt;http://purl.org/dc/terms/subject&gt; &lt;http://www.dfg.de/dfg_profil/gremien/fachkollegien/liste/index.jsp?id=203#203-03&gt; ;</span></span>
+<span id="cb6-47"><a href="#cb6-47" tabindex="-1" aria-label="code-block-6-47"></a><span class="st">	&lt;http://purl.org/dc/terms/type&gt; &lt;http://purl.org/dc/dcmitype/Dataset&gt; ;</span></span>
+<span id="cb6-48"><a href="#cb6-48" tabindex="-1" aria-label="code-block-6-48"></a><span class="st">	&lt;http://purl.org/dc/terms/title&gt; </span><span class="dt">\"</span><span class="st">Automatisch annotierte version von </span><span class="va">$filename</span><span class="dt">\"</span><span class="st"> .</span></span>
+<span id="cb6-49"><a href="#cb6-49" tabindex="-1" aria-label="code-block-6-49"></a></span>
+<span id="cb6-50"><a href="#cb6-50" tabindex="-1" aria-label="code-block-6-50"></a><span class="st">"</span></span>
+<span id="cb6-51"><a href="#cb6-51" tabindex="-1" aria-label="code-block-6-51"></a></span>
+<span id="cb6-52"><a href="#cb6-52" tabindex="-1" aria-label="code-block-6-52"></a>    <span class="ex">curl</span> <span class="at">-X</span> PUT <span class="st">"</span><span class="va">$url</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-53"><a href="#cb6-53" tabindex="-1" aria-label="code-block-6-53"></a>        <span class="at">-H</span> <span class="st">"Authorization: Bearer </span><span class="va">${API_TOKEN}</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-54"><a href="#cb6-54" tabindex="-1" aria-label="code-block-6-54"></a>        <span class="at">-H</span> <span class="st">"Accept: */*"</span> <span class="dt">\</span></span>
+<span id="cb6-55"><a href="#cb6-55" tabindex="-1" aria-label="code-block-6-55"></a>        <span class="at">-H</span> <span class="st">"Content-Type: text/turtle"</span> <span class="dt">\</span></span>
+<span id="cb6-56"><a href="#cb6-56" tabindex="-1" aria-label="code-block-6-56"></a>        <span class="at">-d</span> <span class="st">'${metadata}'</span></span>
+<span id="cb6-57"><a href="#cb6-57" tabindex="-1" aria-label="code-block-6-57"></a>        </span>
+<span id="cb6-58"><a href="#cb6-58" tabindex="-1" aria-label="code-block-6-58"></a><span class="kw">}</span></span>
+<span id="cb6-59"><a href="#cb6-59" tabindex="-1" aria-label="code-block-6-59"></a></span>
+<span id="cb6-60"><a href="#cb6-60" tabindex="-1" aria-label="code-block-6-60"></a><span class="fu">upload_file()</span> <span class="kw">{</span></span>
+<span id="cb6-61"><a href="#cb6-61" tabindex="-1" aria-label="code-block-6-61"></a>    <span class="bu">local</span> <span class="va">projekt_id</span><span class="op">=</span><span class="st">"</span><span class="va">$1</span><span class="st">"</span></span>
+<span id="cb6-62"><a href="#cb6-62" tabindex="-1" aria-label="code-block-6-62"></a>    <span class="bu">local</span> <span class="va">resource_id</span><span class="op">=</span><span class="st">"</span><span class="va">$2</span><span class="st">"</span></span>
+<span id="cb6-63"><a href="#cb6-63" tabindex="-1" aria-label="code-block-6-63"></a>    <span class="bu">local</span> <span class="va">filename</span><span class="op">=</span><span class="st">"</span><span class="va">$3</span><span class="st">"</span></span>
+<span id="cb6-64"><a href="#cb6-64" tabindex="-1" aria-label="code-block-6-64"></a></span>
+<span id="cb6-65"><a href="#cb6-65" tabindex="-1" aria-label="code-block-6-65"></a>    <span class="bu">local</span> <span class="va">dest</span><span class="op">=</span><span class="st">"annotiert_</span><span class="va">$(</span><span class="ex">jq</span> <span class="at">-rn</span> <span class="at">--arg</span> x <span class="va">${filename}</span> <span class="st">'$x|@uri'</span><span class="va">)</span><span class="st">"</span></span>
+<span id="cb6-66"><a href="#cb6-66" tabindex="-1" aria-label="code-block-6-66"></a>    <span class="bu">local</span> <span class="va">url</span><span class="op">=</span><span class="st">"</span><span class="va">${BASE_URL}</span><span class="st">/projects/</span><span class="va">${projekt_id}</span><span class="st">/resources/</span><span class="va">${resource_id}</span><span class="st">/storage/</span><span class="va">${dest}</span><span class="st">/content"</span></span>
+<span id="cb6-67"><a href="#cb6-67" tabindex="-1" aria-label="code-block-6-67"></a> </span>
+<span id="cb6-68"><a href="#cb6-68" tabindex="-1" aria-label="code-block-6-68"></a>    <span class="ex">curl</span> <span class="at">-X</span> POST <span class="st">"</span><span class="va">$url</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-69"><a href="#cb6-69" tabindex="-1" aria-label="code-block-6-69"></a>        <span class="at">-H</span> <span class="st">"Authorization: Bearer </span><span class="va">${API_TOKEN}</span><span class="st">"</span> <span class="dt">\</span></span>
+<span id="cb6-70"><a href="#cb6-70" tabindex="-1" aria-label="code-block-6-70"></a>        <span class="at">-H</span> <span class="st">"Accept: */*"</span> <span class="dt">\</span></span>
+<span id="cb6-71"><a href="#cb6-71" tabindex="-1" aria-label="code-block-6-71"></a>        <span class="at">-H</span> <span class="st">"Content-Type: multipart/form-data"</span> <span class="dt">\</span></span>
+<span id="cb6-72"><a href="#cb6-72" tabindex="-1" aria-label="code-block-6-72"></a>        <span class="at">-F</span> <span class="st">"file=@annotiert_</span><span class="va">${filename}</span><span class="st">;type=text/plain"</span></span>
+<span id="cb6-73"><a href="#cb6-73" tabindex="-1" aria-label="code-block-6-73"></a>        </span>
+<span id="cb6-74"><a href="#cb6-74" tabindex="-1" aria-label="code-block-6-74"></a><span class="kw">}</span></span>
+<span id="cb6-75"><a href="#cb6-75" tabindex="-1" aria-label="code-block-6-75"></a></span>
+<span id="cb6-76"><a href="#cb6-76" tabindex="-1" aria-label="code-block-6-76"></a></span>
+<span id="cb6-77"><a href="#cb6-77" tabindex="-1" aria-label="code-block-6-77"></a><span class="cf">for</span> entry <span class="kw">in</span> <span class="st">"</span><span class="va">${FILES</span><span class="op">[@]</span><span class="va">}</span><span class="st">"</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb6-78"><a href="#cb6-78" tabindex="-1" aria-label="code-block-6-78"></a>    <span class="va">IFS</span><span class="op">=</span><span class="st">'|'</span> <span class="bu">read</span> <span class="at">-r</span> <span class="va">projekt_id</span> <span class="va">resource_id</span> <span class="va">filename</span> <span class="op">&lt;&lt;&lt;</span> <span class="st">"</span><span class="va">$entry</span><span class="st">"</span></span>
+<span id="cb6-79"><a href="#cb6-79" tabindex="-1" aria-label="code-block-6-79"></a></span>
+<span id="cb6-80"><a href="#cb6-80" tabindex="-1" aria-label="code-block-6-80"></a>    <span class="ex">download_file</span> <span class="st">"</span><span class="va">$projekt_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$resource_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$filename</span><span class="st">"</span></span>
+<span id="cb6-81"><a href="#cb6-81" tabindex="-1" aria-label="code-block-6-81"></a>    <span class="fu">touch</span> <span class="st">"annotiert_</span><span class="va">${filename}</span><span class="st">"</span></span>
+<span id="cb6-82"><a href="#cb6-82" tabindex="-1" aria-label="code-block-6-82"></a>    <span class="ex">upload_metadata</span> <span class="st">"</span><span class="va">$projekt_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$resource_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$filename</span><span class="st">"</span></span>
+<span id="cb6-83"><a href="#cb6-83" tabindex="-1" aria-label="code-block-6-83"></a>    <span class="ex">upload_file</span> <span class="st">"</span><span class="va">$projekt_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$resource_id</span><span class="st">"</span> <span class="st">"</span><span class="va">$filename</span><span class="st">"</span></span>
+<span id="cb6-84"><a href="#cb6-84" tabindex="-1" aria-label="code-block-6-84"></a><span class="cf">done</span></span>
+<span id="cb6-85"><a href="#cb6-85" tabindex="-1" aria-label="code-block-6-85"></a></span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Für die Verwendung der API muss ein Zugriffstoken angelegt
+werden</li>
+<li>Über die interaktive Dokumentation können Anfragen generiert werden.
+<a href="https://coscine.rwth-aachen.de/coscine/api/swagger/index.html" class="external-link">Swagger</a>,
+<a href="https://coscine.rwth-aachen.de/coscine/apps/apidocs/" class="external-link">Scalar</a>
+</li>
+<li>Metadaten müssen vor den Daten hochgeladen werden</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</section></section>
 </div>
     </main>
 </div>
@@ -1482,8 +1857,8 @@ Guest)</li>
   "url": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
   "identifier": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/aio.html",
   "dateCreated": "2024-11-18",
-  "dateModified": "2026-10-13",
-  "datePublished": "2026-10-13"
+  "dateModified": "2026-10-14",
+  "datePublished": "2026-10-14"
 }
 
   </script><script>
