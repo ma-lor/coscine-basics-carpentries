@@ -361,7 +361,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Automatisierte Dateiverwaltung</h1>
-        <p>Last updated on 2026-10-14 |
+        <p>Last updated on 2026-10-16 |
 
         <a href="https://github.com/ma-lor/coscine-basics-carpentries/edit/main/episodes/08-api.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -440,9 +440,25 @@ scrollen oder mit der Suche (<code>Strg+f</code>) an die richtige Stelle
 springen.</p>
 <figure><img src="../fig/08-swagger-upload.png" alt="Screenshot der Swagger Doku mit dem Endpunkt zum Upload" class="figure mx-auto d-block"></figure><p>Zuerst müssen wir uns authentifizieren, was über das Schloss-Symbol
 in der oberen rechten Ecke der Box möglich ist. In den folgenden Dialog
-kopieren wir unser Zugriffstoken.<br>
-Danach kann mit dem Knopf “Try it out” der interaktive Modus gestartet
-werden.</p>
+müssen wir das Wort <code>Bearer</code> und ein Leerzeichen und dann
+unser Zugriffstoken eingeben. Beispiel:
+<code>Bearer eyJhb....</code>.</p>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>Wenn sie sich im selben Browser bereits in der Coscine Weboberfläche
+angemeldet haben ist die Authentifizierung nicht zwingend nötig.
+Allerdings funktionieren die erzeugten curl Befehle dann nicht im
+lokalen Terminal weil die Autorization-Header fehlen.</p>
+</div>
+</div>
+</div>
+<p>Danach kann mit dem Knopf “Try it out” der interaktive Modus
+gestartet werden.</p>
 <p>Der Endpunkt benötigt vier Parameter:</p>
 <ol style="list-style-type: decimal"><li><p><strong>projectId</strong><br>
 Dieser Parameter, genau wie die resourceId danach könnte mithilfe von
@@ -490,7 +506,7 @@ eine Fehlermeldung erhalten!</strong></p>
 <span id="cb2-14"><a href="#cb2-14" tabindex="-1" aria-label="code-block-2-14"></a>  <span class="dt">"categories"</span><span class="fu">:</span> <span class="kw">null</span></span>
 <span id="cb2-15"><a href="#cb2-15" tabindex="-1" aria-label="code-block-2-15"></a><span class="fu">}</span></span></code></pre>
 </div>
-<div id="callout2" class="callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -520,12 +536,12 @@ Daher helfen wir uns auch hier durch kreative Nutzung der Weboberfläche
 aus.</p>
 <p>Wir starten den Prozess eine Datei (oder Metadaten im falle einer
 LinkedData Ressource) Hochzuladen und öffnen vor dem Absenden die
-Entwicklerwerkzeuge des Browsers (Bei den meisen Browsern
+Entwicklerwerkzeuge des Browsers (Bei den meisten Browsern
 <code>F12</code>) und wählen das Tool “Netzwerkanalyse” (Der genaue Name
 hängt vom Browser ab).</p>
 <p>Dann laden wir die Datei hoch. In der Netzwerkanalyse sollte jetzt
 ein <code>POST</code> mit den Metadaten auftauchen. Aus der Anfrage
-dieses Eintrag können wir uns die benötigten Daten herauskopieren:</p>
+dieses Eintrag können wir uns die benötigten Daten heraus kopieren:</p>
 <figure><img src="../fig/08-browser-devtools.png" alt="Screenshot der Entwicklerwerkzeuge aus Firefox" class="figure mx-auto d-block"></figure><p>Auf Basis dieser Beispieldaten kann in der Regel leicht von Hand ein
 neuer Metadatensatz erstellt werden.</p>
 <pre class="turtle"><code>
@@ -562,7 +578,7 @@ Festplatte zeigt.</p>
 <h3 id="herunterladen-von-dateien">Herunterladen von Dateien<a class="anchor" aria-label="anchor" href="#herunterladen-von-dateien"></a></h3>
 <p>Zeit die neu erstellte Datei herunterzuladen. Dafür benötigen wir
 wieder einen Endpunkt aus der Gruppe “StorageContent”. Die drei
-benötigeten Parameter können wir von unseren bisherigen Anfragen
+benötigten Parameter können wir von unseren bisherigen Anfragen
 übernehmen.</p>
 <p>Wenn wir den generierten curl Befehl lokal ausführen wird uns der
 Inhalt der Datei im Terminal ausgegeben. Um den Inhalt direkt in eine
@@ -584,7 +600,7 @@ Datei umzuleiten können wir die <code>-o</code> Option nutzen.</p>
 <div class="callout-inner">
 <h3 class="callout-title">Challenge</h3>
 <div class="callout-content">
-<p>Diese Challenge erfordert gundlegende Kenntnisse in der
+<p>Diese Challenge erfordert grundlegende Kenntnisse in der
 Programmierung mit Bash. Sie haben einen Algorithmus entwickelt um die
 Beobachtungsprotokolle automatisiert zu annotieren. Um die Verarbeitung
 auf einem Rechencluster durchführen zu können müssen Sie Herunter- und
@@ -777,8 +793,8 @@ any links that you are not going to use.
   "url": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/08-api.html",
   "identifier": "https://ma-lor.github.io/coscine-basics-carpentries/instructor/08-api.html",
   "dateCreated": "2024-11-18",
-  "dateModified": "2026-10-14",
-  "datePublished": "2026-10-14"
+  "dateModified": "2026-10-16",
+  "datePublished": "2026-10-16"
 }
 
   </script><script>
