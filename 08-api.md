@@ -46,7 +46,12 @@ Dann suchen wir den richtigen Endpunkt in der Swagger Dokumentation. Die relevan
 
 ![](fig/08-swagger-upload.png){alt="Screenshot der Swagger Doku mit dem Endpunkt zum Upload"}
 
-Zuerst müssen wir uns authentifizieren, was über das Schloss-Symbol in der oberen rechten Ecke der Box möglich ist. In den folgenden Dialog kopieren wir unser Zugriffstoken.  
+Zuerst müssen wir uns authentifizieren, was über das Schloss-Symbol in der oberen rechten Ecke der Box möglich ist. In den folgenden Dialog müssen wir das Wort `Bearer` und ein Leerzeichen und dann unser Zugriffstoken eingeben. Beispiel: `Bearer eyJhb....`.
+
+::: callout
+Wenn sie sich im selben Browser bereits in der Coscine Weboberfläche angemeldet haben ist die Authentifizierung nicht zwingend nötig. Allerdings funktionieren die erzeugten curl Befehle dann nicht im lokalen Terminal weil die Autorization-Header fehlen.
+:::
+
 Danach kann mit dem Knopf "Try it out" der interaktive Modus gestartet werden.
 
 Der Endpunkt benötigt vier Parameter:
@@ -102,9 +107,9 @@ Die ersten drei Parameter können wir eins-zu-eins vom Endpunkt zum Upload der D
 Hier benötigen wir die Metadaten für die Datei, wie sie im Metadatenprofil der Zielressource vorgegeben sind und nach `ld+json` oder `turtle` formatiert.
 Auch hier wäre es theoretisch möglich die benötigten Informationen mit mehreren Anfragen an die API zusammenzusetzen, in der Praxis ist das allerdings viel zu aufwändig. Daher helfen wir uns auch hier durch kreative Nutzung der Weboberfläche aus. 
 
-Wir starten den Prozess eine Datei (oder Metadaten im falle einer LinkedData Ressource) Hochzuladen und öffnen vor dem Absenden die Entwicklerwerkzeuge des Browsers (Bei den meisen Browsern `F12`) und wählen das Tool "Netzwerkanalyse" (Der genaue Name hängt vom Browser ab).
+Wir starten den Prozess eine Datei (oder Metadaten im falle einer LinkedData Ressource) Hochzuladen und öffnen vor dem Absenden die Entwicklerwerkzeuge des Browsers (Bei den meisten Browsern `F12`) und wählen das Tool "Netzwerkanalyse" (Der genaue Name hängt vom Browser ab).
 
-Dann laden wir die Datei hoch. In der Netzwerkanalyse sollte jetzt ein `POST` mit den Metadaten auftauchen. Aus der Anfrage dieses Eintrag können wir uns die benötigten Daten herauskopieren:
+Dann laden wir die Datei hoch. In der Netzwerkanalyse sollte jetzt ein `POST` mit den Metadaten auftauchen. Aus der Anfrage dieses Eintrag können wir uns die benötigten Daten heraus kopieren:
 
 ![](fig/08-browser-devtools.png){alt="Screenshot der Entwicklerwerkzeuge aus Firefox"}
 
@@ -137,7 +142,7 @@ curl -X 'POST' \
 
 ### Herunterladen von Dateien
 
-Zeit die neu erstellte Datei herunterzuladen. Dafür benötigen wir wieder einen Endpunkt aus der Gruppe "StorageContent". Die drei benötigeten Parameter können wir von unseren bisherigen Anfragen übernehmen.
+Zeit die neu erstellte Datei herunterzuladen. Dafür benötigen wir wieder einen Endpunkt aus der Gruppe "StorageContent". Die drei benötigten Parameter können wir von unseren bisherigen Anfragen übernehmen.
 
 Wenn wir den generierten curl Befehl lokal ausführen wird uns der Inhalt der Datei im Terminal ausgegeben. Um den Inhalt direkt in eine Datei umzuleiten können wir die `-o` Option nutzen.
 
@@ -150,7 +155,7 @@ curl -X 'GET' \
 ```
 
 ::::::::::::::::::::::::::::::::::::::: challenge
-Diese Challenge erfordert gundlegende Kenntnisse in der Programmierung mit Bash.
+Diese Challenge erfordert grundlegende Kenntnisse in der Programmierung mit Bash.
 Sie haben einen Algorithmus entwickelt um die Beobachtungsprotokolle automatisiert zu annotieren. Um die Verarbeitung auf einem Rechencluster durchführen zu können müssen Sie Herunter- und Hochladen von Dateien automatisieren.   
 Schreiben Sie ein Skript um alle obs_\*\*\*.csv über die API herunterzuladen und anschließend annotiert_obs_\*\*\*.csv mit passenden Metadaten hochzuladen.
 
